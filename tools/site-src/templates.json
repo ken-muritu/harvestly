@@ -1,0 +1,74 @@
+{
+ "RAIN_COVER": {
+  "en": "Harvestly: Rain likely {rain_when} ({rain}). Cover your drying maize or bring it indoors now. Reply 1 when covered. {credit} {date}.",
+  "sw": "Harvestly: Mvua inatarajiwa {rain_when} ({rain}). Funika mahindi unayoanika au uyaingize ndani sasa. Jibu 1 ukishafunika. {credit} {date}."
+ },
+ "TEST_FIRST": {
+  "en": "Harvestly: We do not know how wet your maize is yet. Test it before you store it: use a moisture meter at your co-op or NCPB depot and reply METER and the number, e.g. METER 14.2. Salt test (draft, unconfirmed): reply SALT YES if salt sticks, SALT NO if it stays loose.",
+  "sw": "Harvestly: Hatujui bado mahindi yako yana unyevu kiasi gani. Yapime kabla ya kuhifadhi: tumia mita ya unyevu kwenye chama chako au bohari ya NCPB kisha jibu MITA na namba, mf. MITA 14.2. Kipimo cha chumvi (rasimu, bado hakijathibitishwa): jibu CHUMVI NDIYO chumvi ikinata, CHUMVI HAPANA ikibaki huru."
+ },
+ "OPEN_AND_DRY": {
+  "en": "Harvestly: Maize sealed at 14% moisture or more can still go mouldy ({evidence}). Storage time left: {risk}. Open the bags, dry the maize in full sun and reply DRYING. Reseal only after a test shows it is dry.",
+  "sw": "Harvestly: Mahindi yaliyofungwa yakiwa na unyevu wa 14% au zaidi bado yanaweza kuota kuvu ({evidence}). Muda uliobaki: {risk}. Fungua mifuko, anika juani kisha jibu ANIKA. Usifunge tena mpaka kipimo kionyeshe yamekauka."
+ },
+ "CONFIRM_DRY": {
+  "en": "Harvestly: Sealed bags protect maize only below 14% moisture, and this is not yet confirmed ({evidence}). Within a week, get a meter check at {checkpoint} and reply METER with the number.",
+  "sw": "Harvestly: Mifuko isiyopitisha hewa hulinda mahindi yenye unyevu chini ya 14% tu, na hili bado halijathibitishwa ({evidence}). Ndani ya wiki moja, pima kwa mita katika {checkpoint} kisha tuma MITA na namba."
+ },
+ "SORT_AND_SELL": {
+  "en": "Harvestly: This batch has used most of its estimated storage time. Check it today: remove mouldy or discoloured grain (do not eat it or feed it to animals), then sell or use this batch first.",
+  "sw": "Harvestly: Mahindi haya yametumia sehemu kubwa ya muda wa uhifadhi uliokadiriwa. Yakague leo: ondoa punje zenye kuvu au zilizobadilika rangi (usizile wala usiwalishe mifugo), kisha yauze au uyatumie kwanza."
+ },
+ "HIGH_ALERT": {
+  "en": "Harvestly: URGENT. Storage time left: {risk}. Check this maize today: remove mouldy or discoloured grain (do not eat it or feed it to animals), then sell or use it first. {closing}",
+  "sw": "Harvestly: HARAKA. Muda uliobaki: {risk}. Kagua mahindi haya leo: ondoa punje zenye kuvu au zilizobadilika rangi (usizile wala usiwalishe mifugo), kisha yauze au uyatumie kwanza. {closing}"
+ },
+ "DRY_NOW": {
+  "en": "Harvestly: Your maize is too wet to store ({evidence}). Storage time left: {risk}. Dry it on a tarpaulin in full sun{reply_drying}, then test again. {credit} {date}.",
+  "sw": "Harvestly: Mahindi yako yana unyevu mwingi mno kuhifadhiwa ({evidence}). Muda uliobaki: {risk}. Yaanike juu ya turubai juani{reply_drying}, kisha pima tena. {credit} {date}."
+ },
+ "RETEST": {
+  "en": "Harvestly: {why} ({evidence}). Storage time left: {risk}. Do the salt test today and reply SALT YES or SALT NO. {credit} {date}.",
+  "sw": "Harvestly: {why} ({evidence}). Muda uliobaki: {risk}. Fanya kipimo cha chumvi leo kisha jibu CHUMVI NDIYO au CHUMVI HAPANA. {credit} {date}."
+ },
+ "NEARLY_DRY": {
+  "en": "Harvestly: Not yet proven dry enough to seal or sell ({evidence}); the limit is 13.5%. Dry more in full sun if needed, then confirm with a meter at {checkpoint}. Reply METER and the number.",
+  "sw": "Harvestly: Bado haijathibitishwa kuwa mahindi yamekauka vya kutosha kufungwa au kuuzwa ({evidence}); kiwango ni 13.5%. Anika zaidi juani ikihitajika, kisha thibitisha kwa mita katika {checkpoint}. Jibu MITA na namba."
+ },
+ "READY_TO_STORE": {
+  "en": "Harvestly: Dry enough to store ({evidence}). Seal it in hermetic bags ({stockist}) or deposit it at {warehouse} for a warehouse receipt. Reply SEALED, SOLD or DEPOSITED when done.",
+  "sw": "Harvestly: Mahindi yamekauka vya kutosha ({evidence}). Yafunge kwenye mifuko isiyopitisha hewa ({stockist}) au yaweke kwenye {warehouse} upate stakabadhi ya ghala. Ukimaliza jibu NIMEFUNGA, NIMEUZA au GHALANI."
+ },
+ "INSECT_REMINDER": {
+  "en": "Harvestly: Your maize has been in sacks or open storage for {weeks} weeks. Weevil damage grows the longer maize stays in sacks. It tested dry, so consider moving it into hermetic bags ({stockist}) or selling soon.",
+  "sw": "Harvestly: Mahindi yako yamekaa kwenye magunia au hifadhi ya wazi wiki {weeks}. Uharibifu wa fukusi huongezeka mahindi yakikaa muda mrefu kwenye magunia. Kipimo kilionyesha yamekauka, kwa hiyo fikiria kuyahamishia kwenye mifuko isiyopitisha hewa ({stockist}) au kuyauza mapema."
+ },
+ "STATUS": {
+  "en": "Harvestly: Recorded ({measured}). Storage time left: {risk}. This is an estimate, not a guarantee.",
+  "sw": "Harvestly: Tumepokea ({measured}). Muda wa kuhifadhi uliobaki: {risk}. Ni makadirio, si hakikisho."
+ },
+ "WELCOME": {
+  "en": "Harvestly: Welcome. These messages give storage advice for your maize by SMS. It is an estimate. Weather data by Open-Meteo.com (CC BY 4.0). Reply STOP at any time to stop all messages.",
+  "sw": "Harvestly: Karibu. Ujumbe huu unatoa ushauri wa kuhifadhi mahindi yako kwa SMS. Ni makadirio. Data ya hali ya hewa: Open-Meteo.com (CC BY 4.0). Jibu SIMAMISHA wakati wowote kusimamisha ujumbe wote."
+ },
+ "HELP": {
+  "en": "Harvestly: Sorry, we did not understand. Reply SALT YES, SALT NO, METER 14.2, HYGRO 62 18, DRYING, SACKS, SEALED, SOLD, DEPOSITED or STOP.",
+  "sw": "Harvestly: Samahani, hatukuelewa. Jibu CHUMVI NDIYO, CHUMVI HAPANA, MITA 14.2, HYGRO 62 18, ANIKA, MAGUNIA, NIMEFUNGA, NIMEUZA, GHALANI au SIMAMISHA."
+ },
+ "THANKS": {
+  "en": "Harvestly: Thank you, noted.",
+  "sw": "Harvestly: Asante, tumepokea."
+ },
+ "START_OK": {
+  "en": "Harvestly: Messages are on again for this number. To register grain reply JOIN <ward> <storage> <bags>, e.g. JOIN KITALE SACK 12. Reply STOP to stop.",
+  "sw": "Harvestly: Ujumbe umewashwa tena kwa namba hii. Kusajili mahindi jibu SAJILI <kata> <hifadhi> <magunia>, mf. SAJILI KITALE MAGUNIA 12. Jibu SIMAMISHA kusimamisha."
+ },
+ "CLOSED": {
+  "en": "Harvestly: Noted. Alerts for this batch have ended. Reply START to restart them.",
+  "sw": "Harvestly: Tumepokea. Arifa za mahindi haya zimekoma. Jibu ANZA kuziwasha tena."
+ },
+ "STOPPED": {
+  "en": "Harvestly: You will get no more messages on this number, for any batch. Reply START to restart.",
+  "sw": "Harvestly: Hutapokea ujumbe zaidi kwenye namba hii, kwa mahindi yoyote. Jibu ANZA kuanza tena."
+ }
+}

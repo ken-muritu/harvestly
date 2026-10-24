@@ -1,0 +1,41 @@
+{
+  "regions": [
+    "dub1"
+  ],
+  "functions": {
+    "api/telegram.py": {
+      "maxDuration": 60,
+      "memory": 256
+    },
+    "api/prune.py": {
+      "maxDuration": 30,
+      "memory": 256
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/cards/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/prune",
+      "schedule": "17 3 * * *"
+    }
+  ]
+}

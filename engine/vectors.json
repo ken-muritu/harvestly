@@ -1,0 +1,6661 @@
+{
+ "engine": "harvestly_engine v4",
+ "emc": [
+  {
+   "temp_c": 10,
+   "rh": 40,
+   "emc": 11.2
+  },
+  {
+   "temp_c": 10,
+   "rh": 55,
+   "emc": 13.7
+  },
+  {
+   "temp_c": 10,
+   "rh": 63,
+   "emc": 15.04
+  },
+  {
+   "temp_c": 10,
+   "rh": 70,
+   "emc": 16.3
+  },
+  {
+   "temp_c": 10,
+   "rh": 85,
+   "emc": 19.8
+  },
+  {
+   "temp_c": 10,
+   "rh": 90,
+   "emc": 21.4
+  },
+  {
+   "temp_c": 10,
+   "rh": 95,
+   "emc": 21.4
+  },
+  {
+   "temp_c": 15,
+   "rh": 40,
+   "emc": 10.76
+  },
+  {
+   "temp_c": 15,
+   "rh": 55,
+   "emc": 13.16
+  },
+  {
+   "temp_c": 15,
+   "rh": 63,
+   "emc": 14.5
+  },
+  {
+   "temp_c": 15,
+   "rh": 70,
+   "emc": 15.76
+  },
+  {
+   "temp_c": 15,
+   "rh": 85,
+   "emc": 18.98
+  },
+  {
+   "temp_c": 15,
+   "rh": 90,
+   "emc": 20.58
+  },
+  {
+   "temp_c": 15,
+   "rh": 95,
+   "emc": 20.58
+  },
+  {
+   "temp_c": 18,
+   "rh": 40,
+   "emc": 10.524
+  },
+  {
+   "temp_c": 18,
+   "rh": 55,
+   "emc": 12.836
+  },
+  {
+   "temp_c": 18,
+   "rh": 63,
+   "emc": 14.176
+  },
+  {
+   "temp_c": 18,
+   "rh": 70,
+   "emc": 15.348
+  },
+  {
+   "temp_c": 18,
+   "rh": 85,
+   "emc": 18.636
+  },
+  {
+   "temp_c": 18,
+   "rh": 90,
+   "emc": 20.148
+  },
+  {
+   "temp_c": 18,
+   "rh": 95,
+   "emc": 20.148
+  },
+  {
+   "temp_c": 18.3,
+   "rh": 40,
+   "emc": 10.5024
+  },
+  {
+   "temp_c": 18.3,
+   "rh": 55,
+   "emc": 12.8036
+  },
+  {
+   "temp_c": 18.3,
+   "rh": 63,
+   "emc": 14.1436
+  },
+  {
+   "temp_c": 18.3,
+   "rh": 70,
+   "emc": 15.3048
+  },
+  {
+   "temp_c": 18.3,
+   "rh": 85,
+   "emc": 18.6036
+  },
+  {
+   "temp_c": 18.3,
+   "rh": 90,
+   "emc": 20.1048
+  },
+  {
+   "temp_c": 18.3,
+   "rh": 95,
+   "emc": 20.1048
+  },
+  {
+   "temp_c": 21,
+   "rh": 40,
+   "emc": 10.308
+  },
+  {
+   "temp_c": 21,
+   "rh": 55,
+   "emc": 12.608
+  },
+  {
+   "temp_c": 21,
+   "rh": 63,
+   "emc": 13.8904
+  },
+  {
+   "temp_c": 21,
+   "rh": 70,
+   "emc": 15.012
+  },
+  {
+   "temp_c": 21,
+   "rh": 85,
+   "emc": 18.216
+  },
+  {
+   "temp_c": 21,
+   "rh": 90,
+   "emc": 19.812
+  },
+  {
+   "temp_c": 21,
+   "rh": 95,
+   "emc": 19.812
+  },
+  {
+   "temp_c": 24,
+   "rh": 40,
+   "emc": 10.092
+  },
+  {
+   "temp_c": 24,
+   "rh": 55,
+   "emc": 12.292
+  },
+  {
+   "temp_c": 24,
+   "rh": 63,
+   "emc": 13.572
+  },
+  {
+   "temp_c": 24,
+   "rh": 70,
+   "emc": 14.788
+  },
+  {
+   "temp_c": 24,
+   "rh": 85,
+   "emc": 17.888
+  },
+  {
+   "temp_c": 24,
+   "rh": 90,
+   "emc": 19.388
+  },
+  {
+   "temp_c": 24,
+   "rh": 95,
+   "emc": 19.388
+  },
+  {
+   "temp_c": 30,
+   "rh": 40,
+   "emc": 9.66
+  },
+  {
+   "temp_c": 30,
+   "rh": 55,
+   "emc": 11.86
+  },
+  {
+   "temp_c": 30,
+   "rh": 63,
+   "emc": 13.04
+  },
+  {
+   "temp_c": 30,
+   "rh": 70,
+   "emc": 14.24
+  },
+  {
+   "temp_c": 30,
+   "rh": 85,
+   "emc": 17.24
+  },
+  {
+   "temp_c": 30,
+   "rh": 90,
+   "emc": 18.74
+  },
+  {
+   "temp_c": 30,
+   "rh": 95,
+   "emc": 18.74
+  }
+ ],
+ "ast": [
+  {
+   "temp_c": 10,
+   "mc": 12,
+   "days": 3423.334886
+  },
+  {
+   "temp_c": 10,
+   "mc": 13.5,
+   "days": 1458.04354
+  },
+  {
+   "temp_c": 10,
+   "mc": 14.5,
+   "days": 825.37485
+  },
+  {
+   "temp_c": 10,
+   "mc": 15,
+   "days": 621.0
+  },
+  {
+   "temp_c": 10,
+   "mc": 16.4,
+   "days": 279.978468
+  },
+  {
+   "temp_c": 10,
+   "mc": 18,
+   "days": 132.332914
+  },
+  {
+   "temp_c": 10,
+   "mc": 20,
+   "days": 64.992307
+  },
+  {
+   "temp_c": 10,
+   "mc": 23,
+   "days": 30.0
+  },
+  {
+   "temp_c": 10,
+   "mc": 28,
+   "days": 15.010545
+  },
+  {
+   "temp_c": 10,
+   "mc": 32,
+   "days": 12.0
+  },
+  {
+   "temp_c": 15,
+   "mc": 12,
+   "days": 1646.762085
+  },
+  {
+   "temp_c": 15,
+   "mc": 13.5,
+   "days": 701.04927
+  },
+  {
+   "temp_c": 15,
+   "mc": 14.5,
+   "days": 396.72874
+  },
+  {
+   "temp_c": 15,
+   "mc": 15,
+   "days": 298.446317
+  },
+  {
+   "temp_c": 15,
+   "mc": 16.4,
+   "days": 134.496008
+  },
+  {
+   "temp_c": 15,
+   "mc": 18,
+   "days": 63.525322
+  },
+  {
+   "temp_c": 15,
+   "mc": 20,
+   "days": 31.641183
+  },
+  {
+   "temp_c": 15,
+   "mc": 23,
+   "days": 15.182605
+  },
+  {
+   "temp_c": 15,
+   "mc": 28,
+   "days": 7.826609
+  },
+  {
+   "temp_c": 15,
+   "mc": 32,
+   "days": 6.355343
+  },
+  {
+   "temp_c": 18,
+   "mc": 12,
+   "days": 1176.258614
+  },
+  {
+   "temp_c": 18,
+   "mc": 13.5,
+   "days": 500.856077
+  },
+  {
+   "temp_c": 18,
+   "mc": 14.5,
+   "days": 283.478222
+  },
+  {
+   "temp_c": 18,
+   "mc": 15,
+   "days": 213.266714
+  },
+  {
+   "temp_c": 18,
+   "mc": 16.4,
+   "days": 96.128581
+  },
+  {
+   "temp_c": 18,
+   "mc": 18,
+   "days": 45.309293
+  },
+  {
+   "temp_c": 18,
+   "mc": 20,
+   "days": 22.349981
+  },
+  {
+   "temp_c": 18,
+   "mc": 23,
+   "days": 11.322985
+  },
+  {
+   "temp_c": 18,
+   "mc": 28,
+   "days": 6.179747
+  },
+  {
+   "temp_c": 18,
+   "mc": 32,
+   "days": 5.110598
+  },
+  {
+   "temp_c": 21,
+   "mc": 12,
+   "days": 867.723702
+  },
+  {
+   "temp_c": 21,
+   "mc": 13.5,
+   "days": 367.686785
+  },
+  {
+   "temp_c": 21,
+   "mc": 14.5,
+   "days": 207.431987
+  },
+  {
+   "temp_c": 21,
+   "mc": 15,
+   "days": 155.802557
+  },
+  {
+   "temp_c": 21,
+   "mc": 16.4,
+   "days": 69.908723
+  },
+  {
+   "temp_c": 21,
+   "mc": 18,
+   "days": 33.212062
+  },
+  {
+   "temp_c": 21,
+   "mc": 20,
+   "days": 16.432371
+  },
+  {
+   "temp_c": 21,
+   "mc": 23,
+   "days": 8.102557
+  },
+  {
+   "temp_c": 21,
+   "mc": 28,
+   "days": 4.751397
+  },
+  {
+   "temp_c": 21,
+   "mc": 32,
+   "days": 4.035863
+  },
+  {
+   "temp_c": 24,
+   "mc": 12,
+   "days": 622.414051
+  },
+  {
+   "temp_c": 24,
+   "mc": 13.5,
+   "days": 265.981944
+  },
+  {
+   "temp_c": 24,
+   "mc": 14.5,
+   "days": 150.903971
+  },
+  {
+   "temp_c": 24,
+   "mc": 15,
+   "days": 113.664521
+  },
+  {
+   "temp_c": 24,
+   "mc": 16.4,
+   "days": 51.405885
+  },
+  {
+   "temp_c": 24,
+   "mc": 18,
+   "days": 24.041132
+  },
+  {
+   "temp_c": 24,
+   "mc": 20,
+   "days": 11.855406
+  },
+  {
+   "temp_c": 24,
+   "mc": 23,
+   "days": 5.931352
+  },
+  {
+   "temp_c": 24,
+   "mc": 28,
+   "days": 3.644142
+  },
+  {
+   "temp_c": 24,
+   "mc": 32,
+   "days": 2.965676
+  },
+  {
+   "temp_c": 26,
+   "mc": 12,
+   "days": 498.370248
+  },
+  {
+   "temp_c": 26,
+   "mc": 13.5,
+   "days": 214.255648
+  },
+  {
+   "temp_c": 26,
+   "mc": 14.5,
+   "days": 122.044738
+  },
+  {
+   "temp_c": 26,
+   "mc": 15,
+   "days": 92.111202
+  },
+  {
+   "temp_c": 26,
+   "mc": 16.4,
+   "days": 41.892275
+  },
+  {
+   "temp_c": 26,
+   "mc": 18,
+   "days": 19.375279
+  },
+  {
+   "temp_c": 26,
+   "mc": 20,
+   "days": 9.531242
+  },
+  {
+   "temp_c": 26,
+   "mc": 23,
+   "days": 4.821674
+  },
+  {
+   "temp_c": 26,
+   "mc": 28,
+   "days": 3.053638
+  },
+  {
+   "temp_c": 26,
+   "mc": 32,
+   "days": 2.410837
+  }
+ ],
+ "scenarios": [
+  {
+   "name": "demo_pitch",
+   "storage": "sack",
+   "start": "2026-10-12",
+   "days": 13,
+   "weather": "see make_vectors.py",
+   "trace": [
+    {
+     "day": "2026-10-12",
+     "event": "reply",
+     "text": "SALT YES",
+     "cmd": "SALT_YES",
+     "code": "DRY_NOW",
+     "message": "Harvestly: Your maize is too wet to store (salt test: above 15%). Storage time left: 3 months or more, falling fast in damp weather. Dry it on a tarpaulin in full sun and reply DRYING, then test again. Open-Meteo.com 12/10."
+    },
+    {
+     "day": "2026-10-12",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 263,
+     "moisture": 17.8,
+     "life_used_pct": 2.0,
+     "moisture_s": "17.8",
+     "life_used_pct_s": "2.0",
+     "moisture_exact": 17.8088,
+     "life_used_exact": 0.02040386,
+     "message": null
+    },
+    {
+     "day": "2026-10-13",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 262,
+     "moisture": 17.6,
+     "life_used_pct": 3.9,
+     "moisture_s": "17.6",
+     "life_used_pct_s": "3.9",
+     "moisture_exact": 17.62716,
+     "life_used_exact": 0.039341112,
+     "message": null
+    },
+    {
+     "day": "2026-10-14",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 261,
+     "moisture": 17.5,
+     "life_used_pct": 5.7,
+     "moisture_s": "17.5",
+     "life_used_pct_s": "5.7",
+     "moisture_exact": 17.454602,
+     "life_used_exact": 0.05698285,
+     "message": null
+    },
+    {
+     "day": "2026-10-15",
+     "event": "evening",
+     "code": "DRY_NOW",
+     "level": "LOW",
+     "days_left": 34,
+     "moisture": 17.3,
+     "life_used_pct": 7.3,
+     "moisture_s": "17.3",
+     "life_used_pct_s": "7.3",
+     "moisture_exact": 17.2906719,
+     "life_used_exact": 0.073476035,
+     "message": "Harvestly: Your maize is too wet to store (estimate from salt test). Storage time left: about 34 days (estimate). Dry it on a tarpaulin in full sun and reply DRYING, then test again. Open-Meteo.com 15/10."
+    },
+    {
+     "day": "2026-10-16",
+     "event": "reply",
+     "text": "DRYING",
+     "cmd": "STORAGE",
+     "code": "THANKS",
+     "message": "Harvestly: Thank you, noted."
+    },
+    {
+     "day": "2026-10-16",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 56,
+     "moisture": 17.3,
+     "life_used_pct": 9.0,
+     "moisture_s": "17.3",
+     "life_used_pct_s": "9.0",
+     "moisture_exact": 17.2906719,
+     "life_used_exact": 0.089969221,
+     "message": null
+    },
+    {
+     "day": "2026-10-17",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 55,
+     "moisture": 17.3,
+     "life_used_pct": 10.6,
+     "moisture_s": "17.3",
+     "life_used_pct_s": "10.6",
+     "moisture_exact": 17.2906719,
+     "life_used_exact": 0.106462406,
+     "message": null
+    },
+    {
+     "day": "2026-10-18",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 54,
+     "moisture": 17.3,
+     "life_used_pct": 12.3,
+     "moisture_s": "17.3",
+     "life_used_pct_s": "12.3",
+     "moisture_exact": 17.2906719,
+     "life_used_exact": 0.122955592,
+     "message": null
+    },
+    {
+     "day": "2026-10-19",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 53,
+     "moisture": 17.3,
+     "life_used_pct": 13.9,
+     "moisture_s": "17.3",
+     "life_used_pct_s": "13.9",
+     "moisture_exact": 17.2906719,
+     "life_used_exact": 0.139448777,
+     "message": null
+    },
+    {
+     "day": "2026-10-20",
+     "event": "evening",
+     "code": "RAIN_COVER",
+     "level": "LOW",
+     "days_left": 52,
+     "moisture": 17.3,
+     "life_used_pct": 15.6,
+     "moisture_s": "17.3",
+     "life_used_pct_s": "15.6",
+     "moisture_exact": 17.2906719,
+     "life_used_exact": 0.155941963,
+     "message": "Harvestly: Rain likely tomorrow (80% chance). Cover your drying maize or bring it indoors now. Reply 1 when covered. Open-Meteo.com 20/10."
+    },
+    {
+     "day": "2026-10-21",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 51,
+     "moisture": 17.3,
+     "life_used_pct": 17.2,
+     "moisture_s": "17.3",
+     "life_used_pct_s": "17.2",
+     "moisture_exact": 17.2906719,
+     "life_used_exact": 0.172435148,
+     "message": null
+    },
+    {
+     "day": "2026-10-22",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 50,
+     "moisture": 17.3,
+     "life_used_pct": 18.9,
+     "moisture_s": "17.3",
+     "life_used_pct_s": "18.9",
+     "moisture_exact": 17.2906719,
+     "life_used_exact": 0.188928334,
+     "message": null
+    },
+    {
+     "day": "2026-10-23",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 49,
+     "moisture": 17.3,
+     "life_used_pct": 20.5,
+     "moisture_s": "17.3",
+     "life_used_pct_s": "20.5",
+     "moisture_exact": 17.2906719,
+     "life_used_exact": 0.20542152,
+     "message": null
+    },
+    {
+     "day": "2026-10-24",
+     "event": "reply",
+     "text": "SALT NO",
+     "cmd": "SALT_NO",
+     "code": "NEARLY_DRY",
+     "message": "Harvestly: Not yet proven dry enough to seal or sell (salt test: below about 15%); the limit is 13.5%. Dry more in full sun if needed, then confirm with a meter at your co-op or NCPB depot. Reply METER and the number."
+    },
+    {
+     "day": "2026-10-24",
+     "event": "reply",
+     "text": "METER 13.1",
+     "cmd": "METER",
+     "code": "READY_TO_STORE",
+     "message": "Harvestly: Dry enough to store (meter 13.1%). Seal it in hermetic bags (an agro-dealer near you) or deposit it at a certified warehouse for a warehouse receipt. Reply SEALED, SOLD or DEPOSITED when done."
+    },
+    {
+     "day": "2026-10-24",
+     "event": "reply",
+     "text": "SEALED",
+     "cmd": "STORAGE",
+     "code": "STATUS",
+     "message": "Harvestly: Recorded (meter 13.1% on 24/10). Storage time left: 3 months or more. This is an estimate, not a guarantee."
+    },
+    {
+     "day": "2026-10-24",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 365,
+     "moisture": 13.1,
+     "life_used_pct": 20.7,
+     "moisture_s": "13.1",
+     "life_used_pct_s": "20.7",
+     "moisture_exact": 13.1,
+     "life_used_exact": 0.207011566,
+     "message": null
+    }
+   ]
+  },
+  {
+   "name": "salt_pass_then_seal",
+   "storage": "drying",
+   "start": "2026-10-12",
+   "days": 22,
+   "weather": "see make_vectors.py",
+   "trace": [
+    {
+     "day": "2026-10-12",
+     "event": "reply",
+     "text": "SALT NO",
+     "cmd": "SALT_NO",
+     "code": "NEARLY_DRY",
+     "message": "Harvestly: Not yet proven dry enough to seal or sell (salt test: below about 15%); the limit is 13.5%. Dry more in full sun if needed, then confirm with a meter at your co-op or NCPB depot. Reply METER and the number."
+    },
+    {
+     "day": "2026-10-12",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 283,
+     "moisture": 14.5,
+     "life_used_pct": 0.4,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "0.4",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.003527608,
+     "message": null
+    },
+    {
+     "day": "2026-10-13",
+     "event": "reply",
+     "text": "SEALED",
+     "cmd": "STORAGE",
+     "code": "CONFIRM_DRY",
+     "message": "Harvestly: Sealed bags protect maize only below 14% moisture, and this is not yet confirmed (salt test: below about 15%). Within a week, get a meter check at your co-op or NCPB depot and reply METER with the number."
+    },
+    {
+     "day": "2026-10-13",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 282,
+     "moisture": 14.5,
+     "life_used_pct": 0.7,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "0.7",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.007055216,
+     "message": null
+    },
+    {
+     "day": "2026-10-14",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 281,
+     "moisture": 14.5,
+     "life_used_pct": 1.1,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "1.1",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.010582824,
+     "message": null
+    },
+    {
+     "day": "2026-10-15",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 280,
+     "moisture": 14.5,
+     "life_used_pct": 1.4,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "1.4",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.014110431,
+     "message": null
+    },
+    {
+     "day": "2026-10-16",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 279,
+     "moisture": 14.5,
+     "life_used_pct": 1.8,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "1.8",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.017638039,
+     "message": null
+    },
+    {
+     "day": "2026-10-17",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 278,
+     "moisture": 14.5,
+     "life_used_pct": 2.1,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "2.1",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.021165647,
+     "message": null
+    },
+    {
+     "day": "2026-10-18",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 277,
+     "moisture": 14.5,
+     "life_used_pct": 2.5,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "2.5",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.024693255,
+     "message": null
+    },
+    {
+     "day": "2026-10-19",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 276,
+     "moisture": 14.5,
+     "life_used_pct": 2.8,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "2.8",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.028220863,
+     "message": null
+    },
+    {
+     "day": "2026-10-20",
+     "event": "evening",
+     "code": "CONFIRM_DRY",
+     "level": "LOW",
+     "days_left": 275,
+     "moisture": 14.5,
+     "life_used_pct": 3.2,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "3.2",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.031748471,
+     "message": "Harvestly: Sealed bags protect maize only below 14% moisture, and this is not yet confirmed (salt test: below about 15%). Within a week, get a meter check at your co-op or NCPB depot and reply METER with the number."
+    },
+    {
+     "day": "2026-10-21",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 274,
+     "moisture": 14.5,
+     "life_used_pct": 3.5,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "3.5",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.035276078,
+     "message": null
+    },
+    {
+     "day": "2026-10-22",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 273,
+     "moisture": 14.5,
+     "life_used_pct": 3.9,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "3.9",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.038803686,
+     "message": null
+    },
+    {
+     "day": "2026-10-23",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 272,
+     "moisture": 14.5,
+     "life_used_pct": 4.2,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "4.2",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.042331294,
+     "message": null
+    },
+    {
+     "day": "2026-10-24",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 271,
+     "moisture": 14.5,
+     "life_used_pct": 4.6,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "4.6",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.045858902,
+     "message": null
+    },
+    {
+     "day": "2026-10-25",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 270,
+     "moisture": 14.5,
+     "life_used_pct": 4.9,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "4.9",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.04938651,
+     "message": null
+    },
+    {
+     "day": "2026-10-26",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 269,
+     "moisture": 14.5,
+     "life_used_pct": 5.3,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "5.3",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.052914118,
+     "message": null
+    },
+    {
+     "day": "2026-10-27",
+     "event": "evening",
+     "code": "CONFIRM_DRY",
+     "level": "LOW",
+     "days_left": 268,
+     "moisture": 14.5,
+     "life_used_pct": 5.6,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "5.6",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.056441725,
+     "message": "Harvestly: Sealed bags protect maize only below 14% moisture, and this is not yet confirmed (salt test: below about 15%). Within a week, get a meter check at your co-op or NCPB depot and reply METER with the number."
+    },
+    {
+     "day": "2026-10-28",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 267,
+     "moisture": 14.5,
+     "life_used_pct": 6.0,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "6.0",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.059969333,
+     "message": null
+    },
+    {
+     "day": "2026-10-29",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 266,
+     "moisture": 14.5,
+     "life_used_pct": 6.3,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "6.3",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.063496941,
+     "message": null
+    },
+    {
+     "day": "2026-10-30",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 265,
+     "moisture": 14.5,
+     "life_used_pct": 6.7,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "6.7",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.067024549,
+     "message": null
+    },
+    {
+     "day": "2026-10-31",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 264,
+     "moisture": 14.5,
+     "life_used_pct": 7.1,
+     "moisture_s": "14.5",
+     "life_used_pct_s": "7.1",
+     "moisture_exact": 14.5,
+     "life_used_exact": 0.070552157,
+     "message": null
+    },
+    {
+     "day": "2026-11-01",
+     "event": "reply",
+     "text": "METER 13.2",
+     "cmd": "METER",
+     "code": "STATUS",
+     "message": "Harvestly: Recorded (meter 13.2% on 01/11). Storage time left: 3 months or more. This is an estimate, not a guarantee."
+    },
+    {
+     "day": "2026-11-01",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 365,
+     "moisture": 13.2,
+     "life_used_pct": 7.2,
+     "moisture_s": "13.2",
+     "life_used_pct_s": "7.2",
+     "moisture_exact": 13.2,
+     "life_used_exact": 0.072235331,
+     "message": null
+    },
+    {
+     "day": "2026-11-02",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 365,
+     "moisture": 13.2,
+     "life_used_pct": 7.4,
+     "moisture_s": "13.2",
+     "life_used_pct_s": "7.4",
+     "moisture_exact": 13.2,
+     "life_used_exact": 0.073918505,
+     "message": null
+    }
+   ]
+  },
+  {
+   "name": "dry_grain_rewets",
+   "storage": "sack",
+   "start": "2026-10-12",
+   "days": 70,
+   "weather": "see make_vectors.py",
+   "trace": [
+    {
+     "day": "2026-10-12",
+     "event": "reply",
+     "text": "METER 13.0",
+     "cmd": "METER",
+     "code": "READY_TO_STORE",
+     "message": "Harvestly: Dry enough to store (meter 13.0%). Seal it in hermetic bags (an agro-dealer near you) or deposit it at a certified warehouse for a warehouse receipt. Reply SEALED, SOLD or DEPOSITED when done."
+    },
+    {
+     "day": "2026-10-12",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 44,
+     "moisture": 13.4,
+     "life_used_pct": 0.2,
+     "moisture_s": "13.4",
+     "life_used_pct_s": "0.2",
+     "moisture_exact": 13.3514,
+     "life_used_exact": 0.00203419,
+     "message": null
+    },
+    {
+     "day": "2026-10-13",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 43,
+     "moisture": 13.7,
+     "life_used_pct": 0.4,
+     "moisture_s": "13.7",
+     "life_used_pct_s": "0.4",
+     "moisture_exact": 13.68523,
+     "life_used_exact": 0.00449468,
+     "message": null
+    },
+    {
+     "day": "2026-10-14",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 42,
+     "moisture": 14.0,
+     "life_used_pct": 0.7,
+     "moisture_s": "14.0",
+     "life_used_pct_s": "0.7",
+     "moisture_exact": 14.0023685,
+     "life_used_exact": 0.007442632,
+     "message": null
+    },
+    {
+     "day": "2026-10-15",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 41,
+     "moisture": 14.3,
+     "life_used_pct": 1.1,
+     "moisture_s": "14.3",
+     "life_used_pct_s": "1.1",
+     "moisture_exact": 14.303650075,
+     "life_used_exact": 0.010942843,
+     "message": null
+    },
+    {
+     "day": "2026-10-16",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 40,
+     "moisture": 14.6,
+     "life_used_pct": 1.5,
+     "moisture_s": "14.6",
+     "life_used_pct_s": "1.5",
+     "moisture_exact": 14.589867571,
+     "life_used_exact": 0.015063241,
+     "message": null
+    },
+    {
+     "day": "2026-10-17",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 39,
+     "moisture": 14.9,
+     "life_used_pct": 2.0,
+     "moisture_s": "14.9",
+     "life_used_pct_s": "2.0",
+     "moisture_exact": 14.861774193,
+     "life_used_exact": 0.019874315,
+     "message": null
+    },
+    {
+     "day": "2026-10-18",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 38,
+     "moisture": 15.1,
+     "life_used_pct": 2.5,
+     "moisture_s": "15.1",
+     "life_used_pct_s": "2.5",
+     "moisture_exact": 15.120085483,
+     "life_used_exact": 0.025448479,
+     "message": null
+    },
+    {
+     "day": "2026-10-19",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 37,
+     "moisture": 15.4,
+     "life_used_pct": 3.2,
+     "moisture_s": "15.4",
+     "life_used_pct_s": "3.2",
+     "moisture_exact": 15.365481209,
+     "life_used_exact": 0.031859401,
+     "message": null
+    },
+    {
+     "day": "2026-10-20",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 36,
+     "moisture": 15.6,
+     "life_used_pct": 3.9,
+     "moisture_s": "15.6",
+     "life_used_pct_s": "3.9",
+     "moisture_exact": 15.598607148,
+     "life_used_exact": 0.039181309,
+     "message": null
+    },
+    {
+     "day": "2026-10-21",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 35,
+     "moisture": 15.8,
+     "life_used_pct": 4.7,
+     "moisture_s": "15.8",
+     "life_used_pct_s": "4.7",
+     "moisture_exact": 15.820076791,
+     "life_used_exact": 0.047488282,
+     "message": null
+    },
+    {
+     "day": "2026-10-22",
+     "event": "evening",
+     "code": "RETEST",
+     "level": "LOW",
+     "days_left": 34,
+     "moisture": 16.0,
+     "life_used_pct": 5.7,
+     "moisture_s": "16.0",
+     "life_used_pct_s": "5.7",
+     "moisture_exact": 16.030472951,
+     "life_used_exact": 0.056853556,
+     "message": "Harvestly: Damp air has probably re-wetted your stored maize (estimate 16.0%). Storage time left: about 34 days (estimate). Do the salt test today and reply SALT YES or SALT NO. Open-Meteo.com 22/10."
+    },
+    {
+     "day": "2026-10-23",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 33,
+     "moisture": 16.2,
+     "life_used_pct": 6.7,
+     "moisture_s": "16.2",
+     "life_used_pct_s": "6.7",
+     "moisture_exact": 16.230349304,
+     "life_used_exact": 0.067348841,
+     "message": null
+    },
+    {
+     "day": "2026-10-24",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 32,
+     "moisture": 16.4,
+     "life_used_pct": 7.9,
+     "moisture_s": "16.4",
+     "life_used_pct_s": "7.9",
+     "moisture_exact": 16.420231839,
+     "life_used_exact": 0.079043681,
+     "message": null
+    },
+    {
+     "day": "2026-10-25",
+     "event": "evening",
+     "code": null,
+     "level": "LOW",
+     "days_left": 31,
+     "moisture": 16.6,
+     "life_used_pct": 9.2,
+     "moisture_s": "16.6",
+     "life_used_pct_s": "9.2",
+     "moisture_exact": 16.600620247,
+     "life_used_exact": 0.092004855,
+     "message": null
+    },
+    {
+     "day": "2026-10-26",
+     "event": "evening",
+     "code": "RETEST",
+     "level": "MEDIUM",
+     "days_left": 30,
+     "moisture": 16.8,
+     "life_used_pct": 10.6,
+     "moisture_s": "16.8",
+     "life_used_pct_s": "10.6",
+     "moisture_exact": 16.771989234,
+     "life_used_exact": 0.106295832,
+     "message": "Harvestly: Damp air has probably re-wetted your stored maize (estimate 16.8%). Storage time left: about 30 days (estimate). Do the salt test today and reply SALT YES or SALT NO. Open-Meteo.com 26/10."
+    },
+    {
+     "day": "2026-10-27",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 29,
+     "moisture": 16.9,
+     "life_used_pct": 12.2,
+     "moisture_s": "16.9",
+     "life_used_pct_s": "12.2",
+     "moisture_exact": 16.934789773,
+     "life_used_exact": 0.121976285,
+     "message": null
+    },
+    {
+     "day": "2026-10-28",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 28,
+     "moisture": 17.1,
+     "life_used_pct": 13.9,
+     "moisture_s": "17.1",
+     "life_used_pct_s": "13.9",
+     "moisture_exact": 17.089450284,
+     "life_used_exact": 0.138856281,
+     "message": null
+    },
+    {
+     "day": "2026-10-29",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 27,
+     "moisture": 17.2,
+     "life_used_pct": 15.7,
+     "moisture_s": "17.2",
+     "life_used_pct_s": "15.7",
+     "moisture_exact": 17.23637777,
+     "life_used_exact": 0.15678067,
+     "message": null
+    },
+    {
+     "day": "2026-10-30",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 26,
+     "moisture": 17.4,
+     "life_used_pct": 17.6,
+     "moisture_s": "17.4",
+     "life_used_pct_s": "17.6",
+     "moisture_exact": 17.375958881,
+     "life_used_exact": 0.175757026,
+     "message": null
+    },
+    {
+     "day": "2026-10-31",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 25,
+     "moisture": 17.5,
+     "life_used_pct": 19.6,
+     "moisture_s": "17.5",
+     "life_used_pct_s": "19.6",
+     "moisture_exact": 17.508560937,
+     "life_used_exact": 0.195789879,
+     "message": null
+    },
+    {
+     "day": "2026-11-01",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 24,
+     "moisture": 17.6,
+     "life_used_pct": 21.7,
+     "moisture_s": "17.6",
+     "life_used_pct_s": "21.7",
+     "moisture_exact": 17.63453289,
+     "life_used_exact": 0.216880837,
+     "message": null
+    },
+    {
+     "day": "2026-11-02",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 23,
+     "moisture": 17.8,
+     "life_used_pct": 23.9,
+     "moisture_s": "17.8",
+     "life_used_pct_s": "23.9",
+     "moisture_exact": 17.754206246,
+     "life_used_exact": 0.239028716,
+     "message": null
+    },
+    {
+     "day": "2026-11-03",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 22,
+     "moisture": 17.9,
+     "life_used_pct": 26.2,
+     "moisture_s": "17.9",
+     "life_used_pct_s": "26.2",
+     "moisture_exact": 17.867895934,
+     "life_used_exact": 0.262229687,
+     "message": null
+    },
+    {
+     "day": "2026-11-04",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 21,
+     "moisture": 18.0,
+     "life_used_pct": 28.6,
+     "moisture_s": "18.0",
+     "life_used_pct_s": "28.6",
+     "moisture_exact": 17.975901137,
+     "life_used_exact": 0.286477441,
+     "message": null
+    },
+    {
+     "day": "2026-11-05",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 20,
+     "moisture": 18.1,
+     "life_used_pct": 31.2,
+     "moisture_s": "18.1",
+     "life_used_pct_s": "31.2",
+     "moisture_exact": 18.07850608,
+     "life_used_exact": 0.311763351,
+     "message": null
+    },
+    {
+     "day": "2026-11-06",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 19,
+     "moisture": 18.2,
+     "life_used_pct": 33.8,
+     "moisture_s": "18.2",
+     "life_used_pct_s": "33.8",
+     "moisture_exact": 18.175980776,
+     "life_used_exact": 0.33807665,
+     "message": null
+    },
+    {
+     "day": "2026-11-07",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 18,
+     "moisture": 18.3,
+     "life_used_pct": 36.5,
+     "moisture_s": "18.3",
+     "life_used_pct_s": "36.5",
+     "moisture_exact": 18.268581737,
+     "life_used_exact": 0.365404607,
+     "message": null
+    },
+    {
+     "day": "2026-11-08",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 17,
+     "moisture": 18.4,
+     "life_used_pct": 39.4,
+     "moisture_s": "18.4",
+     "life_used_pct_s": "39.4",
+     "moisture_exact": 18.35655265,
+     "life_used_exact": 0.393732708,
+     "message": null
+    },
+    {
+     "day": "2026-11-09",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 16,
+     "moisture": 18.4,
+     "life_used_pct": 42.3,
+     "moisture_s": "18.4",
+     "life_used_pct_s": "42.3",
+     "moisture_exact": 18.440125018,
+     "life_used_exact": 0.423044829,
+     "message": null
+    },
+    {
+     "day": "2026-11-10",
+     "event": "evening",
+     "code": null,
+     "level": "MEDIUM",
+     "days_left": 15,
+     "moisture": 18.5,
+     "life_used_pct": 45.3,
+     "moisture_s": "18.5",
+     "life_used_pct_s": "45.3",
+     "moisture_exact": 18.519518767,
+     "life_used_exact": 0.45332341,
+     "message": null
+    },
+    {
+     "day": "2026-11-11",
+     "event": "evening",
+     "code": "HIGH_ALERT",
+     "level": "HIGH",
+     "days_left": 14,
+     "moisture": 18.6,
+     "life_used_pct": 48.5,
+     "moisture_s": "18.6",
+     "life_used_pct_s": "48.5",
+     "moisture_exact": 18.594942829,
+     "life_used_exact": 0.484549628,
+     "message": "Harvestly: URGENT. Storage time left: about 14 days (estimate). Check this maize today: remove mouldy or discoloured grain (do not eat it or feed it to animals), then sell or use it first. Reminders are weekly, at most 4."
+    },
+    {
+     "day": "2026-11-12",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 13,
+     "moisture": 18.7,
+     "life_used_pct": 51.7,
+     "moisture_s": "18.7",
+     "life_used_pct_s": "51.7",
+     "moisture_exact": 18.666595687,
+     "life_used_exact": 0.516703558,
+     "message": null
+    },
+    {
+     "day": "2026-11-13",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 12,
+     "moisture": 18.7,
+     "life_used_pct": 55.0,
+     "moisture_s": "18.7",
+     "life_used_pct_s": "55.0",
+     "moisture_exact": 18.734665903,
+     "life_used_exact": 0.549764331,
+     "message": null
+    },
+    {
+     "day": "2026-11-14",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 11,
+     "moisture": 18.8,
+     "life_used_pct": 58.4,
+     "moisture_s": "18.8",
+     "life_used_pct_s": "58.4",
+     "moisture_exact": 18.799332608,
+     "life_used_exact": 0.583710283,
+     "message": null
+    },
+    {
+     "day": "2026-11-15",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 10,
+     "moisture": 18.9,
+     "life_used_pct": 61.9,
+     "moisture_s": "18.9",
+     "life_used_pct_s": "61.9",
+     "moisture_exact": 18.860765977,
+     "life_used_exact": 0.618519098,
+     "message": null
+    },
+    {
+     "day": "2026-11-16",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 9,
+     "moisture": 18.9,
+     "life_used_pct": 65.4,
+     "moisture_s": "18.9",
+     "life_used_pct_s": "65.4",
+     "moisture_exact": 18.919127678,
+     "life_used_exact": 0.65416794,
+     "message": null
+    },
+    {
+     "day": "2026-11-17",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 8,
+     "moisture": 19.0,
+     "life_used_pct": 69.1,
+     "moisture_s": "19.0",
+     "life_used_pct_s": "69.1",
+     "moisture_exact": 18.974571295,
+     "life_used_exact": 0.690633577,
+     "message": null
+    },
+    {
+     "day": "2026-11-18",
+     "event": "evening",
+     "code": "HIGH_ALERT",
+     "level": "HIGH",
+     "days_left": 7,
+     "moisture": 19.0,
+     "life_used_pct": 72.8,
+     "moisture_s": "19.0",
+     "life_used_pct_s": "72.8",
+     "moisture_exact": 19.02724273,
+     "life_used_exact": 0.727781146,
+     "message": "Harvestly: URGENT. Storage time left: about 7 days (estimate). Check this maize today: remove mouldy or discoloured grain (do not eat it or feed it to animals), then sell or use it first. Reminders are weekly, at most 4."
+    },
+    {
+     "day": "2026-11-19",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 6,
+     "moisture": 19.1,
+     "life_used_pct": 76.5,
+     "moisture_s": "19.1",
+     "life_used_pct_s": "76.5",
+     "moisture_exact": 19.077280593,
+     "life_used_exact": 0.765488152,
+     "message": null
+    },
+    {
+     "day": "2026-11-20",
+     "event": "evening",
+     "code": "SORT_AND_SELL",
+     "level": "HIGH",
+     "days_left": 5,
+     "moisture": 19.1,
+     "life_used_pct": 80.4,
+     "moisture_s": "19.1",
+     "life_used_pct_s": "80.4",
+     "moisture_exact": 19.124816564,
+     "life_used_exact": 0.803734424,
+     "message": "Harvestly: This batch has used most of its estimated storage time. Check it today: remove mouldy or discoloured grain (do not eat it or feed it to animals), then sell or use this batch first."
+    },
+    {
+     "day": "2026-11-21",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 4,
+     "moisture": 19.2,
+     "life_used_pct": 84.3,
+     "moisture_s": "19.2",
+     "life_used_pct_s": "84.3",
+     "moisture_exact": 19.169975735,
+     "life_used_exact": 0.84250014,
+     "message": null
+    },
+    {
+     "day": "2026-11-22",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 3,
+     "moisture": 19.2,
+     "life_used_pct": 88.2,
+     "moisture_s": "19.2",
+     "life_used_pct_s": "88.2",
+     "moisture_exact": 19.212876949,
+     "life_used_exact": 0.881765862,
+     "message": null
+    },
+    {
+     "day": "2026-11-23",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 2,
+     "moisture": 19.3,
+     "life_used_pct": 92.2,
+     "moisture_s": "19.3",
+     "life_used_pct_s": "92.2",
+     "moisture_exact": 19.253633101,
+     "life_used_exact": 0.921512562,
+     "message": null
+    },
+    {
+     "day": "2026-11-24",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 1,
+     "moisture": 19.3,
+     "life_used_pct": 96.2,
+     "moisture_s": "19.3",
+     "life_used_pct_s": "96.2",
+     "moisture_exact": 19.292351446,
+     "life_used_exact": 0.961721646,
+     "message": null
+    },
+    {
+     "day": "2026-11-25",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.3,
+     "life_used_pct": 100.2,
+     "moisture_s": "19.3",
+     "life_used_pct_s": "100.2",
+     "moisture_exact": 19.329133874,
+     "life_used_exact": 1.002374977,
+     "message": null
+    },
+    {
+     "day": "2026-11-26",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.4,
+     "life_used_pct": 104.3,
+     "moisture_s": "19.4",
+     "life_used_pct_s": "104.3",
+     "moisture_exact": 19.36407718,
+     "life_used_exact": 1.043454888,
+     "message": null
+    },
+    {
+     "day": "2026-11-27",
+     "event": "evening",
+     "code": "HIGH_ALERT",
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.4,
+     "life_used_pct": 108.5,
+     "moisture_s": "19.4",
+     "life_used_pct_s": "108.5",
+     "moisture_exact": 19.397273321,
+     "life_used_exact": 1.084944194,
+     "message": "Harvestly: URGENT. Storage time left: used up (estimate). Check this maize today: remove mouldy or discoloured grain (do not eat it or feed it to animals), then sell or use it first. Reminders are weekly, at most 4."
+    },
+    {
+     "day": "2026-11-28",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.4,
+     "life_used_pct": 112.7,
+     "moisture_s": "19.4",
+     "life_used_pct_s": "112.7",
+     "moisture_exact": 19.428809655,
+     "life_used_exact": 1.126826206,
+     "message": null
+    },
+    {
+     "day": "2026-11-29",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.5,
+     "life_used_pct": 116.9,
+     "moisture_s": "19.5",
+     "life_used_pct_s": "116.9",
+     "moisture_exact": 19.458769172,
+     "life_used_exact": 1.16908473,
+     "message": null
+    },
+    {
+     "day": "2026-11-30",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.5,
+     "life_used_pct": 121.2,
+     "moisture_s": "19.5",
+     "life_used_pct_s": "121.2",
+     "moisture_exact": 19.487230714,
+     "life_used_exact": 1.211704075,
+     "message": null
+    },
+    {
+     "day": "2026-12-01",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.5,
+     "life_used_pct": 125.5,
+     "moisture_s": "19.5",
+     "life_used_pct_s": "125.5",
+     "moisture_exact": 19.514269178,
+     "life_used_exact": 1.254669053,
+     "message": null
+    },
+    {
+     "day": "2026-12-02",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.5,
+     "life_used_pct": 129.8,
+     "moisture_s": "19.5",
+     "life_used_pct_s": "129.8",
+     "moisture_exact": 19.539955719,
+     "life_used_exact": 1.297964978,
+     "message": null
+    },
+    {
+     "day": "2026-12-03",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.6,
+     "life_used_pct": 134.2,
+     "moisture_s": "19.6",
+     "life_used_pct_s": "134.2",
+     "moisture_exact": 19.564357933,
+     "life_used_exact": 1.341577665,
+     "message": null
+    },
+    {
+     "day": "2026-12-04",
+     "event": "evening",
+     "code": "HIGH_ALERT",
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.6,
+     "life_used_pct": 138.5,
+     "moisture_s": "19.6",
+     "life_used_pct_s": "138.5",
+     "moisture_exact": 19.587540037,
+     "life_used_exact": 1.38549342,
+     "message": "Harvestly: URGENT. Storage time left: used up (estimate). Check this maize today: remove mouldy or discoloured grain (do not eat it or feed it to animals), then sell or use it first. Our last reminder. Retest: reply e.g. METER 14.2 (your own reading) or SALT YES/NO to restart."
+    },
+    {
+     "day": "2026-12-05",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.6,
+     "life_used_pct": 143.0,
+     "moisture_s": "19.6",
+     "life_used_pct_s": "143.0",
+     "moisture_exact": 19.609563035,
+     "life_used_exact": 1.429699042,
+     "message": null
+    },
+    {
+     "day": "2026-12-06",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.6,
+     "life_used_pct": 147.4,
+     "moisture_s": "19.6",
+     "life_used_pct_s": "147.4",
+     "moisture_exact": 19.630484883,
+     "life_used_exact": 1.474181809,
+     "message": null
+    },
+    {
+     "day": "2026-12-07",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.7,
+     "life_used_pct": 151.9,
+     "moisture_s": "19.7",
+     "life_used_pct_s": "151.9",
+     "moisture_exact": 19.650360639,
+     "life_used_exact": 1.518929473,
+     "message": null
+    },
+    {
+     "day": "2026-12-08",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.7,
+     "life_used_pct": 156.4,
+     "moisture_s": "19.7",
+     "life_used_pct_s": "156.4",
+     "moisture_exact": 19.669242607,
+     "life_used_exact": 1.56393025,
+     "message": null
+    },
+    {
+     "day": "2026-12-09",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.7,
+     "life_used_pct": 160.9,
+     "moisture_s": "19.7",
+     "life_used_pct_s": "160.9",
+     "moisture_exact": 19.687180477,
+     "life_used_exact": 1.609172811,
+     "message": null
+    },
+    {
+     "day": "2026-12-10",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.7,
+     "life_used_pct": 165.5,
+     "moisture_s": "19.7",
+     "life_used_pct_s": "165.5",
+     "moisture_exact": 19.704221453,
+     "life_used_exact": 1.654646268,
+     "message": null
+    },
+    {
+     "day": "2026-12-11",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.7,
+     "life_used_pct": 170.0,
+     "moisture_s": "19.7",
+     "life_used_pct_s": "170.0",
+     "moisture_exact": 19.72041038,
+     "life_used_exact": 1.70034017,
+     "message": null
+    },
+    {
+     "day": "2026-12-12",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.7,
+     "life_used_pct": 174.6,
+     "moisture_s": "19.7",
+     "life_used_pct_s": "174.6",
+     "moisture_exact": 19.735789861,
+     "life_used_exact": 1.746244483,
+     "message": null
+    },
+    {
+     "day": "2026-12-13",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.8,
+     "life_used_pct": 179.2,
+     "moisture_s": "19.8",
+     "life_used_pct_s": "179.2",
+     "moisture_exact": 19.750400368,
+     "life_used_exact": 1.792349585,
+     "message": null
+    },
+    {
+     "day": "2026-12-14",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.8,
+     "life_used_pct": 183.9,
+     "moisture_s": "19.8",
+     "life_used_pct_s": "183.9",
+     "moisture_exact": 19.76428035,
+     "life_used_exact": 1.838646249,
+     "message": null
+    },
+    {
+     "day": "2026-12-15",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.8,
+     "life_used_pct": 188.5,
+     "moisture_s": "19.8",
+     "life_used_pct_s": "188.5",
+     "moisture_exact": 19.777466332,
+     "life_used_exact": 1.885125634,
+     "message": null
+    },
+    {
+     "day": "2026-12-16",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.8,
+     "life_used_pct": 193.2,
+     "moisture_s": "19.8",
+     "life_used_pct_s": "193.2",
+     "moisture_exact": 19.789993016,
+     "life_used_exact": 1.931779273,
+     "message": null
+    },
+    {
+     "day": "2026-12-17",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.8,
+     "life_used_pct": 197.9,
+     "moisture_s": "19.8",
+     "life_used_pct_s": "197.9",
+     "moisture_exact": 19.801893365,
+     "life_used_exact": 1.978599057,
+     "message": null
+    },
+    {
+     "day": "2026-12-18",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.8,
+     "life_used_pct": 202.6,
+     "moisture_s": "19.8",
+     "life_used_pct_s": "202.6",
+     "moisture_exact": 19.813198697,
+     "life_used_exact": 2.025577228,
+     "message": null
+    },
+    {
+     "day": "2026-12-19",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.8,
+     "life_used_pct": 207.3,
+     "moisture_s": "19.8",
+     "life_used_pct_s": "207.3",
+     "moisture_exact": 19.823938762,
+     "life_used_exact": 2.072706361,
+     "message": null
+    },
+    {
+     "day": "2026-12-20",
+     "event": "evening",
+     "code": null,
+     "level": "HIGH",
+     "days_left": 0,
+     "moisture": 19.8,
+     "life_used_pct": 212.0,
+     "moisture_s": "19.8",
+     "life_used_pct_s": "212.0",
+     "moisture_exact": 19.834141824,
+     "life_used_exact": 2.11997936,
+     "message": null
+    }
+   ]
+  }
+ ],
+ "rounding": [
+  {
+   "x": 5.05,
+   "fmt1": "5.1",
+   "fmt2": "5.05"
+  },
+  {
+   "x": 13.25,
+   "fmt1": "13.3",
+   "fmt2": "13.25"
+  },
+  {
+   "x": 13.35,
+   "fmt1": "13.4",
+   "fmt2": "13.35"
+  },
+  {
+   "x": 13.45,
+   "fmt1": "13.5",
+   "fmt2": "13.45"
+  },
+  {
+   "x": 13.5,
+   "fmt1": "13.5",
+   "fmt2": "13.50"
+  },
+  {
+   "x": 13.54,
+   "fmt1": "13.5",
+   "fmt2": "13.54"
+  },
+  {
+   "x": 13.95,
+   "fmt1": "14.0",
+   "fmt2": "13.95"
+  },
+  {
+   "x": 14.0,
+   "fmt1": "14.0",
+   "fmt2": "14.00"
+  },
+  {
+   "x": 14.04,
+   "fmt1": "14.0",
+   "fmt2": "14.04"
+  },
+  {
+   "x": 14.96,
+   "fmt1": "15.0",
+   "fmt2": "14.96"
+  },
+  {
+   "x": 15.0,
+   "fmt1": "15.0",
+   "fmt2": "15.00"
+  },
+  {
+   "x": 5.0,
+   "fmt1": "5.0",
+   "fmt2": "5.00"
+  },
+  {
+   "x": 40.0,
+   "fmt1": "40.0",
+   "fmt2": "40.00"
+  },
+  {
+   "x": 0.05,
+   "fmt1": "0.1",
+   "fmt2": "0.05"
+  },
+  {
+   "x": 12.349999999,
+   "fmt1": "12.3",
+   "fmt2": "12.35"
+  },
+  {
+   "x": 0.0,
+   "fmt0": "0"
+  },
+  {
+   "x": 0.4,
+   "fmt0": "0"
+  },
+  {
+   "x": 0.5,
+   "fmt0": "1"
+  },
+  {
+   "x": 1.5,
+   "fmt0": "2"
+  },
+  {
+   "x": 2.5,
+   "fmt0": "3"
+  },
+  {
+   "x": 6.5,
+   "fmt0": "7"
+  },
+  {
+   "x": 59.5,
+   "fmt0": "60"
+  },
+  {
+   "x": 60.0,
+   "fmt0": "60"
+  },
+  {
+   "x": 79.5,
+   "fmt0": "80"
+  },
+  {
+   "x": 100.0,
+   "fmt0": "100"
+  }
+ ],
+ "evidence": [
+  {
+   "reading": 13.25,
+   "en": "meter 13.3%",
+   "sw": "mita 13.3%"
+  },
+  {
+   "reading": 13.3,
+   "en": "meter 13.3%",
+   "sw": "mita 13.3%"
+  },
+  {
+   "reading": 13.46,
+   "en": "meter 13.46%",
+   "sw": "mita 13.46%"
+  },
+  {
+   "reading": 13.5,
+   "en": "meter 13.5%",
+   "sw": "mita 13.5%"
+  },
+  {
+   "reading": 13.54,
+   "en": "meter 13.54%",
+   "sw": "mita 13.54%"
+  },
+  {
+   "reading": 13.96,
+   "en": "meter 13.96%",
+   "sw": "mita 13.96%"
+  },
+  {
+   "reading": 14.0,
+   "en": "meter 14.0%",
+   "sw": "mita 14.0%"
+  },
+  {
+   "reading": 14.04,
+   "en": "meter 14.04%",
+   "sw": "mita 14.04%"
+  },
+  {
+   "reading": 14.96,
+   "en": "meter 14.96%",
+   "sw": "mita 14.96%"
+  },
+  {
+   "reading": 15.0,
+   "en": "meter 15.0%",
+   "sw": "mita 15.0%"
+  },
+  {
+   "reading": 15.04,
+   "en": "meter 15.04%",
+   "sw": "mita 15.04%"
+  },
+  {
+   "reading": 5.05,
+   "en": "meter 5.1%",
+   "sw": "mita 5.1%"
+  },
+  {
+   "reading": 40.0,
+   "en": "meter 40.0%",
+   "sw": "mita 40.0%"
+  }
+ ],
+ "optout": [
+  {
+   "text": "STOP",
+   "norm": "STOP",
+   "optout": true
+  },
+  {
+   "text": "stop",
+   "norm": "STOP",
+   "optout": true
+  },
+  {
+   "text": "Stop.",
+   "norm": "STOP",
+   "optout": true
+  },
+  {
+   "text": "UNSUBSCRIBE",
+   "norm": "UNSUBSCRIBE",
+   "optout": true
+  },
+  {
+   "text": "cancel",
+   "norm": "CANCEL",
+   "optout": true
+  },
+  {
+   "text": "END",
+   "norm": "END",
+   "optout": true
+  },
+  {
+   "text": "quit",
+   "norm": "QUIT",
+   "optout": true
+  },
+  {
+   "text": "ACHA",
+   "norm": "ACHA",
+   "optout": true
+  },
+  {
+   "text": "sitisha",
+   "norm": "SITISHA",
+   "optout": true
+  },
+  {
+   "text": "SIMAMISHA",
+   "norm": "SIMAMISHA",
+   "optout": true
+  },
+  {
+   "text": "PLEASE STOP",
+   "norm": "PLEASE STOP",
+   "optout": true
+  },
+  {
+   "text": "please stop!",
+   "norm": "PLEASE STOP",
+   "optout": true
+  },
+  {
+   "text": "Tafadhali acha",
+   "norm": "TAFADHALI ACHA",
+   "optout": true
+  },
+  {
+   "text": "STOP ALL",
+   "norm": "STOP ALL",
+   "optout": true
+  },
+  {
+   "text": "STOPP",
+   "norm": "STOPP",
+   "optout": true
+  },
+  {
+   "text": "METER 13.5",
+   "norm": "METER 13.5",
+   "optout": false
+  },
+  {
+   "text": "ENDING",
+   "norm": "ENDING",
+   "optout": false
+  },
+  {
+   "text": "NO MORE",
+   "norm": "NO MORE",
+   "optout": true
+  },
+  {
+   "text": "hello",
+   "norm": "HELLO",
+   "optout": false
+  },
+  {
+   "text": "",
+   "norm": "",
+   "optout": false
+  },
+  {
+   "text": "  ",
+   "norm": "",
+   "optout": false
+  },
+  {
+   "text": "STOP\u00a0NOW",
+   "norm": "STOP NOW",
+   "optout": true
+  },
+  {
+   "text": "SALT YES",
+   "norm": "SALT YES",
+   "optout": false
+  },
+  {
+   "text": "PLEASE",
+   "norm": "PLEASE",
+   "optout": false
+  },
+  {
+   "text": "I WANT TO STOP",
+   "norm": "I WANT TO STOP",
+   "optout": true
+  },
+  {
+   "text": "no more please",
+   "norm": "NO MORE PLEASE",
+   "optout": true
+  },
+  {
+   "text": "OPT OUT",
+   "norm": "OPT OUT",
+   "optout": true
+  },
+  {
+   "text": "sitaki tena",
+   "norm": "SITAKI TENA",
+   "optout": true
+  },
+  {
+   "text": "Nisitishie",
+   "norm": "NISITISHIE",
+   "optout": true
+  },
+  {
+   "text": "SEALED STOP",
+   "norm": "SEALED STOP",
+   "optout": true
+  },
+  {
+   "text": "the rain came and the maize is wet so what do I do and when can I stop",
+   "norm": "THE RAIN CAME AND THE MAIZE IS WET SO WHAT DO I DO AND WHEN CAN I STOP",
+   "optout": false
+  }
+ ],
+ "normalise": [
+  {
+   "text_len": 2011,
+   "norm_len": 1000
+  },
+  {
+   "text_len": 1500,
+   "norm_len": 1000
+  }
+ ],
+ "pepper": "test-pepper",
+ "addresses": [
+  {
+   "addr": "+254712345678",
+   "canonical": "+254712345678",
+   "hash": "17636b3ac10ec130889dc069bc038cb7f39ec25b91b9cedd827d5168e24161f1"
+  },
+  {
+   "addr": "0712 345 678",
+   "canonical": "+254712345678",
+   "hash": "17636b3ac10ec130889dc069bc038cb7f39ec25b91b9cedd827d5168e24161f1"
+  },
+  {
+   "addr": "254712345678",
+   "canonical": "+254712345678",
+   "hash": "17636b3ac10ec130889dc069bc038cb7f39ec25b91b9cedd827d5168e24161f1"
+  },
+  {
+   "addr": "00254712345678",
+   "canonical": "+254712345678",
+   "hash": "17636b3ac10ec130889dc069bc038cb7f39ec25b91b9cedd827d5168e24161f1"
+  },
+  {
+   "addr": "tg:123456789",
+   "canonical": "tg:123456789",
+   "hash": "b55cbb1668315c6dc80a061c6fc00b02634067c2c9b8bf7e2d82c125a4e7a55c"
+  },
+  {
+   "addr": "TG:123456789",
+   "canonical": "tg:123456789",
+   "hash": "b55cbb1668315c6dc80a061c6fc00b02634067c2c9b8bf7e2d82c125a4e7a55c"
+  }
+ ],
+ "days_left_cases": [
+  {
+   "storage": "sack",
+   "moisture": 12.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 167,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 12.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 102,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 12.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 52,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "sack",
+   "moisture": 12.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 7,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 13.5,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 158,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 13.5,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 93,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 13.5,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 43,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "sack",
+   "moisture": 13.5,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 4,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 14.5,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 150,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 14.5,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 85,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 14.5,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 36,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "sack",
+   "moisture": 14.5,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 3,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 15.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 145,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 15.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 81,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 15.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 32,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "sack",
+   "moisture": 15.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 3,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 17.3,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 111,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 17.3,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 49,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 17.3,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 13,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 17.3,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 18.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 97,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 18.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 38,
+   "level": "LOW"
+  },
+  {
+   "storage": "sack",
+   "moisture": 18.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 10,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 18.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 22.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 20,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "sack",
+   "moisture": 22.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 8,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 22.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 3,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 22.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 12.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 167,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 12.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 102,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 12.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 52,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "crib",
+   "moisture": 12.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 7,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 13.5,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 158,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 13.5,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 93,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 13.5,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 43,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "crib",
+   "moisture": 13.5,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 4,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 14.5,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 150,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 14.5,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 85,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 14.5,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 36,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "crib",
+   "moisture": 14.5,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 3,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 15.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 145,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 15.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 81,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 15.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 32,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "crib",
+   "moisture": 15.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 3,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 17.3,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 111,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 17.3,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 49,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 17.3,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 13,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 17.3,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 18.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 97,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 18.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 38,
+   "level": "LOW"
+  },
+  {
+   "storage": "crib",
+   "moisture": 18.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 10,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 18.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 22.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 20,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "crib",
+   "moisture": 22.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 8,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 22.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 3,
+   "level": "HIGH"
+  },
+  {
+   "storage": "crib",
+   "moisture": 22.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 12.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 365,
+   "level": "LOW"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 12.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 365,
+   "level": "LOW"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 12.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 191,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 12.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 9,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 13.5,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 365,
+   "level": "LOW"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 13.5,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 213,
+   "level": "LOW"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 13.5,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 81,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 13.5,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 4,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 14.5,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 218,
+   "level": "LOW"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 14.5,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 120,
+   "level": "LOW"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 14.5,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 46,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 14.5,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 3,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 15.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 164,
+   "level": "LOW"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 15.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 90,
+   "level": "LOW"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 15.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 35,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 15.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 2,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 17.3,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 47,
+   "level": "LOW"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 17.3,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 26,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 17.3,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 10,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 17.3,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 18.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 35,
+   "level": "LOW"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 18.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 20,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 18.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 8,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 18.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 22.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 11,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 22.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 6,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 22.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 3,
+   "level": "HIGH"
+  },
+  {
+   "storage": "hermetic",
+   "moisture": 22.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 12.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 365,
+   "level": "LOW"
+  },
+  {
+   "storage": "drying",
+   "moisture": 12.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 365,
+   "level": "LOW"
+  },
+  {
+   "storage": "drying",
+   "moisture": 12.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 191,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "drying",
+   "moisture": 12.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 9,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 13.5,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 365,
+   "level": "LOW"
+  },
+  {
+   "storage": "drying",
+   "moisture": 13.5,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 213,
+   "level": "LOW"
+  },
+  {
+   "storage": "drying",
+   "moisture": 13.5,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 81,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "drying",
+   "moisture": 13.5,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 4,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 14.5,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 218,
+   "level": "LOW"
+  },
+  {
+   "storage": "drying",
+   "moisture": 14.5,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 120,
+   "level": "LOW"
+  },
+  {
+   "storage": "drying",
+   "moisture": 14.5,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 46,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "drying",
+   "moisture": 14.5,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 3,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 15.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 164,
+   "level": "LOW"
+  },
+  {
+   "storage": "drying",
+   "moisture": 15.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 90,
+   "level": "LOW"
+  },
+  {
+   "storage": "drying",
+   "moisture": 15.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 35,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "drying",
+   "moisture": 15.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 2,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 17.3,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 47,
+   "level": "LOW"
+  },
+  {
+   "storage": "drying",
+   "moisture": 17.3,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 26,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "drying",
+   "moisture": 17.3,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 10,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 17.3,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 18.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 35,
+   "level": "LOW"
+  },
+  {
+   "storage": "drying",
+   "moisture": 18.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 20,
+   "level": "MEDIUM"
+  },
+  {
+   "storage": "drying",
+   "moisture": 18.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 8,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 18.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 22.0,
+   "life": 0.0,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 11,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 22.0,
+   "life": 0.45,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 6,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 22.0,
+   "life": 0.79,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 3,
+   "level": "HIGH"
+  },
+  {
+   "storage": "drying",
+   "moisture": 22.0,
+   "life": 0.99,
+   "forecast": [
+    [
+     18.0,
+     55.0
+    ],
+    [
+     19.7,
+     66.0
+    ],
+    [
+     21.4,
+     77.0
+    ],
+    [
+     23.1,
+     88.0
+    ],
+    [
+     18.8,
+     59.0
+    ],
+    [
+     20.5,
+     70.0
+    ],
+    [
+     22.2,
+     81.0
+    ]
+   ],
+   "left": 1,
+   "level": "HIGH"
+  },
+  {
+   "storage": "sack",
+   "moisture": 14.0,
+   "life": 0.0,
+   "forecast": [],
+   "left": null,
+   "level": "UNKNOWN"
+  }
+ ]
+}

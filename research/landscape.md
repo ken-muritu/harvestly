@@ -1,0 +1,26 @@
+# Competitor and adjacent scan (2026-10-12)
+
+Labels: primary / secondary / unreachable. This is a pitch-prep scan, not exhaustive. "Does not do" is my judgement from what I could read, not a claim the competitor says about itself.
+
+| Player | What it does | What it does not do (for Harvestly's gap) | Evidence |
+|---|---|---|---|
+| **Silo Africa** (Eldoret) | SmartSilo airtight metal silo; SiloSense sensors for moisture, temperature, CO2, stock; app and SMS alerts; financing options (pay-per-storage, lease-to-own). Build cost reported at US$800-1,200 per unit | Needs a purchase or lease and an installed silo; nothing for grain in ordinary sacks; reading is of the silo, not a forecast | secondary: https://techcabal.com/2025/10/03/silo-africa-solving-4-billion-dollar-post-harvest-loss/ ; no retail price found |
+| **Apollo Agriculture** | Bundled credit, inputs, insurance and agronomy training through agrodealers; AI credit scoring; reach reported as 100,000 to 350,000+ farmers (sources disagree) | Pre-harvest focus; nothing found on per-batch storage monitoring. A possible distribution or financing partner | secondary: https://agritechobservatory.review.fao.org/es/apollo-agriculture ; https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/blog/ai-driven-smallholder-farmer-lending-in-africa-insights-from-apollo-agriculture/ |
+| **iShamba** (Mediae) | Paid/freemium SMS (subscribe by short code, M-Pesa payment) with weather, market prices, tips; call centre; reported 350,000 subscribers (2016) | Crop-calendar and market information; not tied to a farmer's own grain test. Current status and pricing not found; sources are 2015-2016 | secondary: https://torchbox.com/work/mediae ; https://www.trademarkafrica.com/news/ishamba-wins-two-innovation-awards |
+| **MoA-INFO** (Precision Development) | Free SMS/Telegram advice, 11 crops, ward-level, users vary by source: over 550,000, 650,000 or 754,063; 8 or 11 crops (R1 audit) | No per-batch storage countdown found | note [14]; not re-checked |
+| **KAOP** (KALRO, KMD) | Ward-level forecasts and agro-advisories, the 250,000-a-month figure was NOT found in sources (AICCRA says 471,000 reached in 2023); do not quote | Forecasts weather, not grain state | note [15]; not re-checked |
+| **Twiga Foods** | B2B fresh-produce supply from farmers to Nairobi vendors; later pivot to FMCG distribution; reported administration and restructuring | Fresh produce, not stored staple grain; no storage advisory | secondary: https://www.gsma.com/subsaharanafrica/meet-our-portfolio-start-ups-twiga-foods-kenya ; https://www.connectingafrica.com/startups/the-ghost-in-the-machine-twiga-foods-bitter-harvest |
+| **Hello Tractor** | Tractor rental marketplace (reported as Nigerian-founded, active in several countries) | Mechanisation; unrelated to storage | secondary only; Kenyan footprint not verified |
+| **FarmShine, Cheetah / AgroCenta** | **Nothing relevant found** in two searches. Do not mention them without checking; AgroCenta is, to my knowledge, Ghanaian (unverified). | n/a | unreachable / not found |
+| **Kenya warehouse receipt system (WRS)** | Warehouses certified by the Agriculture and Food Authority; Warehouse Receipts System Act 2019; one report: 121 NCPB stores inspected, 26 certified, 32 conditional (undated 2025 report). Deliveries get moisture, aflatoxin and grade checks | Farmers must already have dry, tested grain; the agriGHALA pilot names farm-gate drying and testing capacity, and awareness, as constraints (note [17]). Harvestly feeds the gate, does not replace it | secondary: https://www.kenyanews.go.ke/?p=38628 ; https://www.businessdailyafrica.com/bd/data-hub/smallholder-warehouse-receipt-system-kicks-off-3394800 ; 13.5% intake: true for NCPB depots without driers; drier depots (Kitale, Eldoret, Mois Bridge) accept 13.5-18% and dry it; not confirmed in this scan |
+| **Hermetic bags (PICS and similar)** | Physical protection; KES 250-300 per bag [35] is the one source found and appears to describe ordinary bags; hermetic price unconfirmed (an older article gave Sh200-250); needs a retailer quote | A bag is not a warning; wet grain sealed in a bag still spoils (note: seal only below 14%) | De Groote 2023: 16% of farmers use them (secondary mirror) |
+| **Cheap tests: salt test, US$4 hygrometer, DryCard** | Same-day moisture check | One-off, no forecast, no follow-up (note [18]-[20]) | note; not re-checked |
+| **Grain moisture meters at co-ops and depots** | Accurate number | Farmer has to travel; not continuous | general knowledge |
+
+## The honest positioning
+- Nothing found does the per-batch countdown for grain in sacks, but absence of evidence in a 10-minute scan is not proof. Say "we found no service that..." as the note does, never "no one does".
+- Closest threats: (1) MoA-INFO or KAOP adding a storage module; (2) Silo Africa moving down-market with a cheaper tag; (3) a government extension SMS blast.
+- Partnership framing: Harvestly is a module for MoA-INFO/KAOP, a feeder for WRS, and a demand generator for hermetic bags and Silo-type storage.
+
+## Gaps in this scan
+Not checked: Farmers Pride, Digifarm (Safaricom), Wefarm, Kilimo Salama, Complete Farmer, Hello Tractor in Kenya, M-Farm, UjuziKilimo. Look these up before claiming completeness.

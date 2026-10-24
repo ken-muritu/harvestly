@@ -1,0 +1,113 @@
+#!/usr/bin/env python3
+"""Build ../schema.sql from schema_ddl.sql plus seed rows taken from the Python reference engine.
+
+    python3 build_schema.py
+
+The EMC table, the AST table and the message templates are read from
+../../engine/harvestly_engine.py so the database seed can never drift from the reference.
+Every DDL statement is wrapped so that re-running the script is harmless (ORA-00955 ignored),
+and every seed is a MERGE (re-running refreshes the rows).
+"""
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(HERE, "..", "..", "engine"))
+import harvestly_engine as H  # noqa: E402
+
+
+def num(x):
+    return repr(x) if isinstance(x, float) else str(x)
+
+
+def ddl_blocks():
+    text = open(os.path.join(HERE, "schema_ddl.sql")).read()
+    stmts = []
+    for part in text.split("\n----\n"):
+        lines = [l for l in part.strip().splitlines() if not l.strip().startswith("--")]
+        s = "\n".join(lines).strip()
+        if s:
+            stmts.append(s)
+    out = []
+    for s in stmts:
+        assert "~" not in s
+        out.append("DECLARE\n  e_exists EXCEPTION;\n  PRAGMA EXCEPTION_INIT(e_exists, -955);\nBEGIN\n"
+                   f"  EXECUTE IMMEDIATE q'~{s}~';\nEXCEPTION WHEN e_exists THEN NULL;\nEND;\n/\n")
+    return out
+
+
+# R3 C3-11: a re-run of CREATE TABLE ignores ORA-00955, so a column whose TYPE changed between releases is never
+# altered on an existing install. This block does not alter anything (changing TIMESTAMP to TIMESTAMP WITH TIME ZONE needs
+# the column copied, see plsql/README.md "Upgrading an existing install"); it stops the script loudly instead of leaving
+# the old type in place unnoticed.
+TYPE_EXPECTATIONS = [("HV_MESSAGES", "CREATED_AT"), ("HV_MESSAGES", "SENT_AT"), ("HV_WEATHER_RAIN24", "FETCHED_AT"),
+                     ("HV_WEATHER_FETCH", "LAST_ATTEMPT_AT"), ("HV_WEATHER_FETCH", "LAST_OK_AT")]
+
+
+def drift_check():
+    rows = " UNION ALL ".join(f"SELECT '{t}' t, '{c}' c FROM dual" for t, c in TYPE_EXPECTATIONS)
+    return ("-- R3 C3-11: refuse to continue if an old install still has the pre-C-08 column types\n"
+            "DECLARE\n  v_n NUMBER;\n  v_bad VARCHAR2(500);\nBEGIN\n"
+            f"  FOR x IN ({rows}) LOOP\n"
+            "    SELECT COUNT(*) INTO v_n FROM user_tab_columns\n"
+            "     WHERE table_name = x.t AND column_name = x.c AND data_type LIKE 'TIMESTAMP%WITH TIME ZONE';\n"
+            "    IF v_n = 0 THEN v_bad := v_bad || ' ' || x.t || '.' || x.c; END IF;\n"
+            "  END LOOP;\n"
+            "  IF v_bad IS NOT NULL THEN\n"
+            "    RAISE_APPLICATION_ERROR(-20099, 'Old column types (need TIMESTAMP WITH TIME ZONE):' || v_bad\n"
+            "      || '. See plsql/README.md, Upgrading an existing install.');\n"
+            "  END IF;\n"
+            "END;\n/\n")
+
+
+def merge_emc():
+    rows = [f"SELECT {num(float(tf))} temp_f, {num(float(rh))} rh, {num(v)} emc_pct FROM dual"
+            for tf, row in zip(H.EMC_TEMPS_F, H.EMC_TABLE) for rh, v in zip(H.EMC_RH, row)]
+    return ("-- SOURCE: Univ. of Arkansas Extension FSA1074 Table A, corn EMC (% w.b.); temp in F, RH in %.\n"
+            "MERGE INTO hv_emc t USING (\n" + "\nUNION ALL ".join(rows) + "\n) s\n"
+            "ON (t.temp_f = s.temp_f AND t.rh = s.rh)\n"
+            "WHEN MATCHED THEN UPDATE SET t.emc_pct = s.emc_pct\n"
+            "WHEN NOT MATCHED THEN INSERT (temp_f, rh, emc_pct) VALUES (s.temp_f, s.rh, s.emc_pct);\n")
+
+
+def merge_ast():
+    rows = [f"SELECT {num(float(tf))} temp_f, {num(float(mc))} mc, {num(float(v))} days FROM dual"
+            for tf, row in zip(H.AST_TEMPS_F, H.AST_TABLE) for mc, v in zip(H.AST_MC, row)]
+    return ("-- SOURCE: Univ. of Arkansas Extension FSA1058 Table 1, safe storage period for corn (days to\n"
+            "-- about 0.5 % dry-matter loss); grain temp in F, moisture in % w.b.\n"
+            "MERGE INTO hv_ast t USING (\n" + "\nUNION ALL ".join(rows) + "\n) s\n"
+            "ON (t.temp_f = s.temp_f AND t.mc = s.mc)\n"
+            "WHEN MATCHED THEN UPDATE SET t.days = s.days\n"
+            "WHEN NOT MATCHED THEN INSERT (temp_f, mc, days) VALUES (s.temp_f, s.mc, s.days);\n")
+
+
+def merge_templates():
+    rows = []
+    for code, (en, sw) in H.TEMPLATES.items():
+        for lang, body in (("en", en), ("sw", sw)):
+            assert "~" not in body and "\n" not in body and len(body) <= 1000
+            assert all(ord(c) < 128 for c in body), code
+            rows.append(f"SELECT '{code}' c, '{lang}' l, q'~{body}~' b FROM dual")
+    return ("-- Message templates (GSM-7 only, 2 SMS max after filling). Placeholders: {name}.\n"
+            "MERGE INTO hv_templates t USING (\n" + "\nUNION ALL ".join(rows) + "\n) s\n"
+            "ON (t.code = s.c AND t.lang = s.l)\n"
+            "WHEN MATCHED THEN UPDATE SET t.body = s.b\n"
+            "WHEN NOT MATCHED THEN INSERT (code, lang, body) VALUES (s.c, s.l, s.b);\n")
+
+
+def main():
+    parts = ["-- Harvestly PL/SQL schema. GENERATED by tools/build_schema.py - edit tools/schema_ddl.sql instead.\n"
+             "-- Idempotent: safe to re-run. Oracle 19c / 23ai (Autonomous Always Free, oracleapex.com).\n"
+             "SET DEFINE OFF\nSET SQLBLANKLINES ON\n\n"]
+    parts += ddl_blocks()
+    parts.append(drift_check())
+    parts.append("\n-- ---------------------------------------------------------------- seed data\n")
+    parts += [merge_emc(), "\n", merge_ast(), "\n", merge_templates(), "\nCOMMIT;\n"]
+    out = os.path.join(HERE, "..", "schema.sql")
+    with open(out, "w") as f:
+        f.write("\n".join(parts))
+    print("wrote", os.path.normpath(out))
+
+
+if __name__ == "__main__":
+    main()

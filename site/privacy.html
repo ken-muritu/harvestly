@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Harvestly privacy note</title>
+<meta name="description" content="What the Harvestly site and its three forms collect, where answers go and are copied, and how to ask for deletion. A prototype; no alerts are live.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FDFBF8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#09342B" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://harvestly-roan.vercel.app/privacy">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Harvestly">
+<meta property="og:title" content="Harvestly privacy note">
+<meta property="og:description" content="What the Harvestly site and its three forms collect, where answers go and are copied, and how to ask for deletion. A prototype; no alerts are live.">
+<meta property="og:url" content="https://harvestly-roan.vercel.app/privacy">
+<meta property="og:image" content="https://harvestly-roan.vercel.app/og/privacy.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Harvestly privacy note">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/dm-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<script src="/assets/v/theme.c0d9d75e97.js"></script>
+<link rel="stylesheet" href="/assets/v/style.8b62adb546.css">
+<script type="module" src="/assets/v/main.dc68d7e6a8.js"></script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead" id="top">
+  <a class="brand" href="/" aria-label="Harvestly, home"><img class="logo-l" src="/brand/harvestly-horizontal.svg" alt="Harvestly" width="117" height="30"><img class="logo-d" src="/brand/harvestly-horizontal-reversed.svg" alt="" width="117" height="30"></a>
+  <nav aria-label="Main"><ul><li><a href="/how-it-works">How it works</a></li><li><a href="/pilot">Pilot</a></li><li><a href="/partners">Partners</a></li><li><a href="/sources">Sources</a></li></ul></nav>
+  <button type="button" class="theme-btn" id="theme" aria-pressed="false" aria-label="Dark theme"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg></button>
+</header>
+<main id="main">
+
+<section class="phero">
+  <div class="wrap phero-in">
+    <h1>Privacy note.</h1>
+    <p class="lede">Harvestly is a hackathon prototype. This page says what we collect, why, who sees it and how to ask us to delete it. A plain explanation, not legal advice. Last changed 12 October 2026.</p>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-site">
+  <div class="wrap">
+    <p class="mark"><svg class="mark-dial dial-low" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><line class="t on" x1="74" y1="145" x2="52" y2="183.1" stroke-width="20"/><line class="t" x1="48" y1="100" x2="4" y2="100" stroke-width="20"/><line class="t" x1="74" y1="55" x2="52" y2="16.9" stroke-width="20"/><line class="t" x1="126" y1="55" x2="148" y2="16.9" stroke-width="20"/><line class="t" x1="152" y1="100" x2="196" y2="100" stroke-width="20"/><line class="t" x1="126" y1="145" x2="148" y2="183.1" stroke-width="20"/></svg><span><span class="mark-n">01</span> This website</span></p>
+    <h2 id="h-site">What the website itself does.</h2>
+    <div class="prose-wide">
+      <p>The site sets no cookies and has no analytics, advertising or tracking scripts. The calculator runs in your browser and sends nothing you type anywhere. Nothing about weather is requested when a page loads. Only if you tap the optional &ldquo;Show recent weather near Kitale&rdquo; button under the calculator does your browser ask a small function on this site for the latest days at one example ward; that function asks NASA POWER for the weather at a rounded ward centre (one decimal of latitude and longitude) and sends NASA nothing about you, and it keeps the answer in its memory for a few hours. To limit how often it can be called, the function keeps a short, salted hash of the caller&rsquo;s address in its memory for up to one minute (the salt is random, held only in memory and lost when the instance ends); it does not store or log the address itself. Your browser keeps two small preferences on your own device (light or dark, English or Kiswahili); we never receive them. Our host, Vercel, handles every request and keeps ordinary server logs (such as the time, the page and the IP address), as any web host does. The three form links open pages on tally.so, which is a different site with its own cookies and policy that we do not control.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec panel" aria-labelledby="h-forms">
+  <div class="wrap">
+    <p class="mark"><svg class="mark-dial dial-low" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><line class="t on" x1="74" y1="145" x2="52" y2="183.1" stroke-width="20"/><line class="t on" x1="48" y1="100" x2="4" y2="100" stroke-width="20"/><line class="t" x1="74" y1="55" x2="52" y2="16.9" stroke-width="20"/><line class="t" x1="126" y1="55" x2="148" y2="16.9" stroke-width="20"/><line class="t" x1="152" y1="100" x2="196" y2="100" stroke-width="20"/><line class="t" x1="126" y1="145" x2="148" y2="183.1" stroke-width="20"/></svg><span><span class="mark-n">02</span> The forms</span></p>
+    <h2 id="h-forms">What the three forms collect.</h2>
+    <ul class="measures">
+      <li><b>Join the Harvestly interest list:</b> your name; a phone number or email if you give one (only so the team can reply to you); your county and ward; how many bags of maize you store and how; and the channel and language you would prefer. It is a list of interest, not a sign-up for alerts.</li>
+      <li><b>Partner with Harvestly:</b> your organisation, your role, your email and what you wrote.</li>
+      <li><b>Talk to the Harvestly team:</b> your name, your email and your message.</li>
+    </ul>
+    <div class="prose-wide">
+      <p><b>Why.</b> To see where interest is, to shape a prototype, and to read what you wrote. We use your answers for nothing else and send no marketing.</p>
+      <p><b>Who is responsible.</b> The Harvestly team, a group of individuals running a hackathon prototype. No company or other legal entity exists yet. You can reach us at <a href="mailto:harvestlyafrica@gmail.com">harvestlyafrica@gmail.com</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-path">
+  <div class="wrap">
+    <p class="mark"><svg class="mark-dial dial-low" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><line class="t on" x1="74" y1="145" x2="52" y2="183.1" stroke-width="20"/><line class="t on" x1="48" y1="100" x2="4" y2="100" stroke-width="20"/><line class="t on" x1="74" y1="55" x2="52" y2="16.9" stroke-width="20"/><line class="t" x1="126" y1="55" x2="148" y2="16.9" stroke-width="20"/><line class="t" x1="152" y1="100" x2="196" y2="100" stroke-width="20"/><line class="t" x1="126" y1="145" x2="148" y2="183.1" stroke-width="20"/></svg><span><span class="mark-n">03</span> Where your answers go</span></p>
+    <h2 id="h-path">The exact path, and where the copies are.</h2>
+    <ol class="measures">
+      <li><b>Tally</b> (tally.so) hosts the form and stores your answers. It also records technical details such as your IP address when you submit.</li>
+      <li>Tally then sends each answer to a small function on this site, which runs on <b>Vercel</b>. The function runs in one place, Washington, D.C. in the United States (Vercel region iad1); the site&rsquo;s pages themselves are served from Vercel&rsquo;s worldwide network. The function does not store anything and does not write your answers to its logs.</li>
+      <li>The function asks <b>Brevo</b> (an email service) to send one email with your answers to the team inbox, harvestlyafrica@gmail.com. That inbox is a <b>Gmail</b> account run by Google (United States and other countries). If you gave an address in the email box of the partner or team form, it is set as the reply address, so the team can answer you. The interest-list form has one box for a phone number or an email; the team reads it in the email and replies by hand.</li>
+    </ol>
+    <div class="prose-wide">
+      <p><b>We send nothing to you automatically.</b> There is no confirmation email. The only email made because of your answers is the one to the team. We cannot tell you what Brevo or Google record on their own systems beyond that, and we do not claim they record nothing; see their policies.</p>
+      <p><b>Outside Kenya.</b> We expect the services above to process your answers outside Kenya, so the form asks for your agreement to a transfer abroad before you can submit it. We have not checked where Tally and Brevo store data; see their policies.</p>
+      <p><b>Copies.</b> Your answers exist in Tally, in the Gmail inbox and in Brevo&rsquo;s message log, which keeps the text of each email. We have not yet written retention rules, so they stay in all three until deleted. We do not sell your answers.</p>
+      <p><b>Children.</b> The forms are meant for adults. Do not submit answers for a child.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-bot">
+  <div class="wrap">
+    <p class="mark"><svg class="mark-dial dial-low" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><line class="t on" x1="74" y1="145" x2="52" y2="183.1" stroke-width="20"/><line class="t on" x1="48" y1="100" x2="4" y2="100" stroke-width="20"/><line class="t on" x1="74" y1="55" x2="52" y2="16.9" stroke-width="20"/><line class="t on" x1="126" y1="55" x2="148" y2="16.9" stroke-width="20"/><line class="t" x1="152" y1="100" x2="196" y2="100" stroke-width="20"/><line class="t" x1="126" y1="145" x2="148" y2="183.1" stroke-width="20"/></svg><span><span class="mark-n">04</span> The test bot</span></p>
+    <h2 id="h-bot">The Telegram test bot.</h2>
+    <p>@HarvestlyBot is a prototype test with simulated weather. It replies only after you message it and sends no unprompted alerts.</p>
+    <ul class="measures">
+      <li><b>Kept, per chat:</b> a salted one-way code made from your Telegram chat id (the id itself is not kept), the language, the test registration (an example ward, how the grain is stored, number of bags, dates, and the readings and answers you send), whether you sent STOP, and a message counter. Separately, the numbers Telegram gives each update are kept for 2 days, only so the same update is not answered twice.</li>
+      <li><b>Not kept:</b> your message text as typed, names, usernames, phone numbers, profile details or location. Telegram itself sees the conversation under its own privacy policy.</li>
+      <li><b>Where:</b> a Vercel function in Dublin, Ireland, and a Turso database on AWS in Ireland.</li>
+      <li><b>Weather:</b> /weather asks NASA POWER, from our server, for the weather at the rounded centre of an example ward (Kitale if you have not registered). Only that rounded point is sent: no chat id, message or other chat data.</li>
+      <li><b>Deleting:</b> send /reset to erase the registration and readings at once. The small record that stays after /reset (the one-way code, the language and the message counter) is deleted with the rest: a clean-up that runs once a day deletes every chat record not used for 30 days, counted from your last message or /reset. To have everything removed sooner, write to the project contact.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec panel" aria-labelledby="h-rights">
+  <div class="wrap">
+    <p class="mark"><svg class="mark-dial dial-low" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><line class="t on" x1="74" y1="145" x2="52" y2="183.1" stroke-width="20"/><line class="t on" x1="48" y1="100" x2="4" y2="100" stroke-width="20"/><line class="t on" x1="74" y1="55" x2="52" y2="16.9" stroke-width="20"/><line class="t on" x1="126" y1="55" x2="148" y2="16.9" stroke-width="20"/><line class="t on" x1="152" y1="100" x2="196" y2="100" stroke-width="20"/><line class="t" x1="126" y1="145" x2="148" y2="183.1" stroke-width="20"/></svg><span><span class="mark-n">05</span> Your rights</span></p>
+    <h2 id="h-rights">Ask us to delete, correct or show you your answers.</h2>
+    <div class="prose-wide">
+      <p>Email <a href="mailto:harvestlyafrica@gmail.com?subject=Harvestly%20data%20request">harvestlyafrica@gmail.com</a>. Say which form and which name or email you used. Ask for your answers to be deleted from Tally, from the Gmail inbox and from Brevo&rsquo;s log. The Kenya Data Protection Act, 2019 gives you the right to know what is held about you, to see it, to correct it, to object, and to have it erased. If you are unhappy, you can complain to the Office of the Data Protection Commissioner (<a href="https://www.odpc.go.ke/" rel="noopener">odpc.go.ke</a>). We cannot promise how quickly we reply, because this is a prototype run by a small team.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-open">
+  <div class="wrap">
+    <p class="mark"><svg class="mark-dial dial-low" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><line class="t on" x1="74" y1="145" x2="52" y2="183.1" stroke-width="20"/><line class="t on" x1="48" y1="100" x2="4" y2="100" stroke-width="20"/><line class="t on" x1="74" y1="55" x2="52" y2="16.9" stroke-width="20"/><line class="t on" x1="126" y1="55" x2="148" y2="16.9" stroke-width="20"/><line class="t on" x1="152" y1="100" x2="196" y2="100" stroke-width="20"/><line class="t on" x1="126" y1="145" x2="148" y2="183.1" stroke-width="20"/></svg><span><span class="mark-n">06</span> What we have not settled</span></p>
+    <h2 id="h-open">Open points.</h2>
+    <div class="prose-wide">
+      <p>We have not yet decided whether registration with the ODPC applies to us. The exemption depends on both turnover and staff numbers, and a pilot with counties or a messaging service could change the answer. A qualified person has not reviewed this note. If Harvestly sends alerts in future, this page would change first.</p>
+    </div>
+    <p class="actions actions-left"><a class="btn" href="https://tally.so/r/RGXvb9" target="_blank" rel="noopener noreferrer">Talk to the Harvestly team<span class="vh"> (opens in a new tab)</span><svg class="ext" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="textlink" href="mailto:harvestlyafrica@gmail.com">Or email harvestlyafrica@gmail.com</a></p>
+  </div>
+</section>
+
+</main>
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a class="foot-logo" href="/" aria-label="Harvestly, home"><img src="/brand/harvestly-horizontal-reversed.svg" alt="Harvestly" width="140" height="36"></a>
+      <p class="foot-line">Hackathon prototype. The pilot has not run.</p>
+      <p class="foot-line">Contact: <a class="textlink foot-form" href="https://tally.so/r/RGXvb9" target="_blank" rel="noopener noreferrer">Talk to the Harvestly team<span class="vh"> (opens in a new tab)</span><svg class="ext" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a> or <a href="mailto:harvestlyafrica@gmail.com">harvestlyafrica@gmail.com</a></p>
+    </div>
+    <nav class="foot-nav" aria-label="Footer"><ul>
+      <li><a href="/how-it-works">How it works</a></li><li><a href="/pilot">Pilot</a></li><li><a href="/partners">Partners</a></li><li><a href="/sources">Sources</a></li><li><a href="/privacy">Privacy</a></li>
+    </ul></nav>
+  </div>
+  <div class="wrap"><p class="foot-small">Demos use simulated weather. The engine is designed to read forecasts from <a href="https://open-meteo.com/">Open-Meteo.com</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>). Figures come from the cited <a href="/sources">sources</a> (checked 9 to 12 October 2026) or the engine&rsquo;s own scenarios.</p></div>
+</footer>
+</body>
+</html>

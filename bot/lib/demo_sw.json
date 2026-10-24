@@ -1,0 +1,48 @@
+{
+ "lang": "sw",
+ "scenario": "demo_pitch",
+ "steps": [
+  {
+   "day": 0,
+   "said": "CHUMVI NDIYO",
+   "text": "Harvestly: Mahindi yako yana unyevu mwingi mno kuhifadhiwa (kipimo cha chumvi: zaidi ya 15%). Muda uliobaki: miezi 3 au zaidi, hupungua haraka kukiwa na unyevu. Yaanike juu ya turubai juani na ujibu ANIKA, kisha pima tena. Hali ya hewa ya kuigwa 12/10.",
+   "left": null
+  },
+  {
+   "day": 3,
+   "said": null,
+   "text": "Harvestly: Mahindi yako yana unyevu mwingi mno kuhifadhiwa (makadirio ya kipimo cha chumvi). Muda uliobaki: siku 34 hivi (makadirio). Yaanike juu ya turubai juani na ujibu ANIKA, kisha pima tena. Hali ya hewa ya kuigwa 15/10.",
+   "left": 34
+  },
+  {
+   "day": 4,
+   "said": "ANIKA",
+   "text": "Harvestly: Asante, tumepokea.",
+   "left": null
+  },
+  {
+   "day": 8,
+   "said": null,
+   "text": "Harvestly: Mvua inatarajiwa kesho (uwezekano 80%). Funika mahindi unayoanika au uyaingize ndani sasa. Jibu 1 ukishafunika. Hali ya hewa ya kuigwa 20/10.",
+   "left": 52
+  },
+  {
+   "day": 12,
+   "said": "CHUMVI HAPANA",
+   "text": "Harvestly: Bado haijathibitishwa kuwa mahindi yamekauka vya kutosha kufungwa au kuuzwa (kipimo cha chumvi: chini ya 15% hivi); kiwango ni 13.5%. Anika zaidi juani ikihitajika, kisha thibitisha kwa mita katika chama chako au bohari ya NCPB. Jibu MITA na namba.",
+   "left": null
+  },
+  {
+   "day": 12,
+   "said": "MITA 13.1",
+   "text": "Harvestly: Mahindi yamekauka vya kutosha (mita 13.1%). Yafunge kwenye mifuko isiyopitisha hewa (duka la pembejeo karibu nawe) au yaweke kwenye ghala lililoidhinishwa upate stakabadhi ya ghala. Ukimaliza jibu NIMEFUNGA, NIMEUZA au GHALANI.",
+   "left": null
+  },
+  {
+   "day": 12,
+   "said": "NIMEFUNGA",
+   "text": "Harvestly: Tumepokea (mita 13.1% tarehe 24/10). Muda wa kuhifadhi uliobaki: miezi 3 au zaidi. Ni makadirio, si hakikisho.",
+   "left": null
+  }
+ ]
+}

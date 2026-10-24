@@ -1,0 +1,224 @@
+Harvestly
+Know when your maize is about to spoil, before it does.
+Concept Note v4.7  |  Green Tech Hackathon 2026  |  @iLabAfrica, Strathmore University × Oracle (per the organisers' poster; the official page was not opened)  |  12 October 2026  |  Contact: harvestlyafrica@gmail.com  |  Demo site: https://harvestly-roan.vercel.app
+Track
+Water Stewardship and Climate-Smart Agriculture (primary): helps farmers adapt grain storage to a wetter, more variable harvest season.
+Climate Data, Awareness, and Green Financing (secondary): turns the weather forecast into a farm-level action, and moves dry grain toward warehouse-receipt credit.
+What it is
+An early-warning service, with no hardware, for maize kept in ordinary woven sacks. The farmer's own moisture test, the 7-day forecast and two published grain-storage tables give an estimated countdown of storage days left for that batch and one action. It is designed to work by SMS, USSD or Telegram. Built today: a tested risk engine, a public demo website and a Telegram test bot (@HarvestlyBot) that answers on simulated weather. SMS and USSD are not built. Recent NASA POWER weather is shown as context only; the advice still runs on simulated weather.
+Our edge
+Low-cost tests tell a farmer about today; sensor silos cost hundreds of dollars. Harvestly turns a free salt test (a screen only) plus the local forecast into a running "days left" for each batch of grain, and only a meter or hygrometer reading can clear grain as dry.
+Pilot
+Proposed: maize in Trans Nzoia County (Kitale), roughly October 2026 to January 2027, a drought-reduced harvest coming in during forecast above-average rains. Nothing is agreed and the pilot has not started.
+Designed on
+Oracle APEX and Autonomous AI Database (Always Free), Oracle REST Data Services, an APEX Automation for the 17:00 daily run. Designed forecast source: Open-Meteo.com (https://open-meteo.com, CC BY 4.0); the test bot calls it (or WeatherAPI.com or OpenWeather as fallbacks) only for the context command /forecast, and its advice still uses simulated weather. Recent observed weather: NASA POWER, shown as context; imagery NASA Worldview / GIBS (MODIS Terra). Not endorsed by NASA. Planned, not yet connected: the Oracle/ORDS Telegram handler and the Africa's Talking SMS/USSD sandbox. The Telegram test bot runs separately, on Vercel.
+Status (12 Oct)
+Risk engine built as a Python reference with automated tests, plus a set of reference results the Oracle version must match. Both data tables are checked cell by cell against their publications. The Oracle PL/SQL files are written (with AI help) but have never been compiled. A Telegram TEST bot (@HarvestlyBot) was built on 12 Oct with AI help. It answers 24/7 from a Vercel webhook (Dublin) using the real Python engine on simulated weather, sends no alerts unprompted, and keeps chat state in a Turso database in Ireland. No farmer has been enrolled and no alert has been sent. The Oracle/ORDS version of the bot, SMS, USSD and the dashboard are not built. A public demo website replays an example scenario. NASA POWER observed weather (a satellite/model estimate for one grid cell of about 55 by 70 km, with a data lag of up to a few days, not measured on the farm and not a forecast) is offered as an optional "Show recent weather near Kitale" button in the calculator, which shows recent NASA estimates as one line of text and changes no calculator values, and as a /weather bot command. The forecast the engine needs is still simulated in the test bot. A MODIS image of Trans Nzoia (20 December 2025, with scattered cloud) is on the /pilot page. Catch-up over observed days is future work.
+1. The problem: nobody can see the moisture in their grain
+Kenya loses an estimated 20–36% of its maize along the value chain [1]. The Kenyan survey we cite [2] measured losses to two insect pests only and did not compare insects with moisture; moisture drives mould and aflatoxin, and damp grain makes both worse. The East African standard caps maize at 13.5% moisture [3]. Hermetic bags only stop aflatoxin building up when grain is below 14%, and in ordinary woven bags in Kenyan farm stores aflatoxin rose 5–8 times over 35 weeks [4] (cited from the paper's record; we did not re-open the paper).
+Grain in a woven sack takes on the moisture of the air around it. At Kitale's normal October weather (18.3 °C, 63% humidity, a 1961–1990 average, not a forecast) [5] maize settles near 14.1%; after a damp spell at 85% humidity it heads for 18.6% [6]. At 18 °C, the US storage table gives about 213 days at 15% moisture, 30 days at 19% and 11 days at 23% [7]; its clock starts at harvest and counts to a 0.5% dry-matter loss. A farmer cannot see which side of that line their sacks are on, and today's tools give a one-off reading, not a warning.
+Why this matters in Trans Nzoia in 2026
+    • Less grain, likely worth more. Drought hit western Kenya: the US Department of Agriculture cut its forecast for Kenya's 2026/27 maize crop by half, to 2.2 Mt [8]. The cut is against its earlier 4.5 Mt forecast, not against last year, and was confirmed in the full USDA report, read through the APEDA copy on 12 October. Local reports describe drought losses in Trans Nzoia [9]. The government plans to import up to 25 million bags [10]. The National Cereals and Produce Board (NCPB) paid KES 4,000 per 90 kg bag in January 2026 [11].
+    • And it is coming in wet. The Kenya Meteorological Department (KMD) expects above-average October–December rain in Trans Nzoia and Uasin Gishu, continuing into January, and describes El Niño as "currently strong" [12].
+    • KMD has already said what to do. Its seasonal advisory calls for "drying capacity, safe/hermetic storage, aflatoxin surveillance" [12]. Harvestly turns that advice into a prompt for each farmer's own grain.
+    • The health stakes are real. Kenya's 2004 aflatoxin outbreak caused 317 cases and 125 deaths, and was linked to maize stored in damp conditions [13].
+2. What already exists, and the gap
+Initiative
+What it does
+What it leaves open
+MoA-INFO (Precision Development with the Ministry of Agriculture) [14]
+Free SMS and Telegram advice for 11 crops including maize, ward-level, in English and Kiswahili; over 550,000 users (reports vary by source).
+Crop-calendar advice; we found no per-batch storage monitoring.
+KAOP (KALRO and KMD, upgraded by AICCRA) [15]
+Ward-level forecasts and agro-advisories to farmers (we could not confirm the 250,000-a-month figure).
+Forecasts the weather, not the state of a farmer's grain.
+Silo Africa [16]
+SmartSilo units with SiloSense sensors (moisture, temperature, CO₂) and SMS alerts.
+Needs hardware; reported build cost US$800–1,200 per unit (not a price).
+agriGHALA and the national warehouse receipt system [17]
+Certified storage and loans of up to 70% of stored grain value (a loan-to-value share), with a 13.5% moisture intake rule.
+Its own pilot names farm-gate drying and testing capacity, and low awareness, as binding constraints.
+Low-cost tests: salt test [18], US$4 hygrometer [19], DryCard [20]
+Tell wet grain from dry, on the day of the test.
+A one-off reading with no follow-up and no forecast.
+
+The gap: we found no service that turns a farmer's own cheap test and the local forecast into a countdown for one batch of grain in ordinary sacks, and then names the next step: dry, re-test, seal, deposit or sell. Only about one in six Kenyan maize farmers uses hermetic bags [2] (a focus-group estimate), so sacks are where the problem is. Harvestly is designed so that it could run inside existing channels such as MoA-INFO or KAOP as a post-harvest module, and send farmers to the warehouses, not compete with them. No talks have been held.
+3. How Harvestly works
+    1. Register (designed to take under a minute; SMS, USSD and Telegram are the planned channels; only a Telegram test bot on simulated weather exists, and SMS and USSD are not built): ward, harvest date, number of bags, and how the grain is kept (drying outside, sacks, crib, floor or hermetic bags).
+    2. Test the grain. The free salt test [18]: salt that sticks to the grain means the maize is probably above about 15% moisture. That 15% line is a published rule of thumb, unverified for Kenyan conditions; the engine treats it as an assumption. We have not verified the exact quantities, shaking time or salt type (the primary source could not be opened), so this note does not state them: the salt-test protocol is pending verification. The salt test only screens: it can say wet, never dry. The farmer replies SALT YES or SALT NO. A hygrometer sealed in a bag of grain [19], or a meter reading from a co-op or NCPB depot, gives a number (HYGRO 62 18, METER 14.2).
+    3. Every evening at 17:00 the engine updates each batch's moisture estimate from that day's weather, adds up how much of its storage life is used, and projects the days left over the 7-day forecast.
+    4. At most one unprompted message a day (replies to the farmer's own texts are answered at once): when something changes (rain is coming while grain is out drying, the advice changes, or the countdown has got markedly worse), or as a spaced and capped reminder. Each message carries one action and the evidence behind it (for example "meter 13.1%"), fits in two SMS, and can be stopped with STOP.
+Three rules that keep the advice honest
+    • Only a measured reading clears grain as dry. A meter or hygrometer reading can; the salt test and the model's estimate never do.
+    • Estimates only trigger a re-test. If the estimate moves a full point past the salt-test line (up to 16% moisture, or down to 14%), the farmer is asked to test again; the engine never orders drying on an estimate alone.
+    • Every reminder is spaced and capped. Unanswered warnings repeat at most twice per test result, re-test requests at most twice in 30 days, and rain alerts pause after three unanswered. A batch at HIGH risk gets a spaced, capped weekly alert even when the other caps apply: at most four per test result. The fourth says it is the last reminder; after it the engine stays silent until the farmer sends a new test.
+Illustrative example. The demo headline (261 days on 14 Oct, then 34 on 15 Oct, after a wet week appears in a simulated forecast) depends on an assumption we have not field-tested: that a drying sack closes 5% of its moisture gap each day. At 0% a day the engine reads 43 days on 14 Oct and 42 on 15 Oct, with no halving alert; at 2% a day 143 then 38; at 5% a day 261 then 34; at 10% a day 302 then 31. The count starts at the first test, not at harvest.
+The risk engine: each step traced to a source
+Step
+Rule
+Source
+Starting moisture
+From the farmer's test only. Salt sticks: above about 15% (a published rule of thumb, unverified for Kenyan conditions; the countdown uses 18%). Salt flows: below about 15% (the countdown uses 14.5%), never proof of 13.5%. Hygrometer: converted with the moisture table at the reading's temperature. Meter: as read. Untested grain gets a request to test, never a countdown.
+Salt test [18]; hygrometer [19]. 18% and 14.5% are our assumptions, to be calibrated in the pilot
+Moisture drift
+Woven sacks, cribs and floors: moisture closes 5% of the gap to the moisture the grain would settle at in that air, each day. Hermetic bags: no change. Drying: held until the next test.
+Moisture table [6]. The 5% a day rate is our untested assumption, applied to drying as well as wetting. Afzal et al. report 12.5% to 15.6% over about 2 months in woven bags [21]: wetting only, a final reading, so it cannot test the rate. To be calibrated in the pilot
+Storage life used
+Each day adds 1 ÷ storage days at that temperature and moisture. At 1, the grain has lost about 0.5% of its dry weight, which the US source ties to a one-grade drop in US grading. The table's clock starts at harvest; ours starts at the first test, so it can overstate time left. Daily air temperature stands in for grain temperature; below 15% moisture the table is extended and the result flagged.
+Storage table [7] (US corn)
+Countdown and level
+Run forward over the 7-day forecast, then its average, up to a 365-day look-ahead cap (a displayed 365 means "at least that long", not a prediction). Humidity above 90% is treated as 90%. HIGH: 80% of life used or 14 days or fewer left. MEDIUM: 50% used or 30 days or fewer.
+Our thresholds, set for the lead time sun-drying needs in a wet season
+
+What the farmer is told (English and Kiswahili, standard SMS characters, two SMS at most)
+Situation
+Message (shortened)
+Not yet tested
+Asks for a meter reading first (e.g. METER 14.2), and offers the salt test as a draft, unconfirmed (SALT YES or SALT NO). At most 3 requests.
+Test says wet
+"Your maize is too wet to store (salt test: above 15%). Storage time left: about 34 days (estimate). Dry it on a tarpaulin in full sun and reply DRYING, then test again…" The 15% line is a published rule of thumb, unverified for Kenyan conditions. Sent again if the countdown halves or the risk level rises, and at most twice more while it stays HIGH.
+Farmer is drying and rain is due
+"Rain likely in the next 24 hours (80% chance). Cover your drying maize or bring it indoors now. Reply 1 when covered."
+Estimate has moved past the test
+"Damp air has probably re-wetted your stored maize… Do the salt test today." (or: it may have dried out).
+Salt test passed, or a reading of 13.6–15%
+"Not yet proven dry enough to seal or sell; the limit is 13.5%… confirm with a meter at [co-op or NCPB depot]."
+Meter or hygrometer 13.5% or below
+"Dry enough to store. Seal it in hermetic bags ([stockist, price]) or deposit it at [certified warehouse] for a warehouse receipt."
+Sealed in hermetic bags
+Measured below 14%: no further alerts. Salt test only: confirm with a meter within a week. Tested wet: open the bags and dry the maize.
+Most of the storage life used
+Check today, remove mouldy grain (do not eat it or feed it to animals), sell or use this batch first.
+7+ weeks in sacks, measured dry
+Weevil damage in Kenyan woven sacks rose over the 35-week trial [22] (the week-7 timing in our reminder rule was not confirmed from the abstract): move to hermetic bags or sell.
+4. Why this is different
+    • A forecast, not a reading. Low-cost tests tell a farmer about today. Harvestly turns one free test into continuous monitoring and says how many days are left.
+    • No hardware, aimed at basic phones. About 29.6 million of 78.3 million mobile connections in Kenya at the end of 2025 were feature phones [23] (connections, not people), which is why SMS and USSD are the planned main channels; neither is built. Telegram is for the demo and smartphone users; a test bot on simulated weather exists.
+    • It points at the market gate. 13.5% is the East African standard limit (draft) and the agriGHALA intake rule [3][17]. NCPB applies it at depots without driers; depots with driers (Kitale, Eldoret, Mois Bridge) reportedly accept wetter grain and dry it (to confirm). Grain that leaves the farm already tested and dry tackles the farm-gate testing constraint warehouses report.
+    • Every number is labelled. Each value in the code is marked as from a publication, an assumption the pilot will calibrate, or one of our own programme rules.
+    • It builds data that is scarce today: a ward-level record of farm-gate grain moisture and storage practice, useful to county governments and warehouse operators.
+5. Prototype on Oracle
+Layer
+Implementation and the limits we designed around
+Data and logic
+Oracle Autonomous AI Database, Always Free: 2 databases of 20 GB, about 3–6 simultaneous APEX users, stops after 7 days without activity [24]. The two tables are stored as data; the engine is a PL/SQL package, written with AI help on 12 October, the first onboarding day, and never yet compiled; it must reproduce the Python reference results exactly. Fallback for the demo: a free oracleapex.com workspace with test data only [25].
+Incoming messages
+In the design, Oracle REST Data Services handlers receive the Telegram webhook (HTTPS) [26] and Africa's Talking SMS and USSD callbacks; these handlers are written but not run. The test bot today uses a separate Vercel webhook. A USSD session lasts 180 seconds, but Safaricom times out after about 30 seconds of silence from the user [27].
+Daily job
+An APEX Automation at 17:00 fetches the forecast once per ward (not per farmer), runs every batch, and queues messages. APEX on Autonomous AI Database allows 1,000 outbound web-service calls per workspace per 24 hours by default, which an administrator can raise [28]; per-ward caching and bulk SMS are meant to keep it well inside that limit.
+Dashboard
+APEX app for extension officers and co-ops: batches by risk and ward, messages sent, replies (alert-to-action rate), data flags, and the stockist and warehouse directory.
+Known limits
+A farmer must message the Telegram bot first before it can alert them [26]; the test bot only ever replies. Sandbox SMS reaches only the Africa's Talking simulator. Open-Meteo's free API is for non-commercial use and needs a visible link-back credit ("Weather data by Open-Meteo.com") [29]; production needs a KMD/KAOP data agreement or a paid plan.
+6. Proposed pilot: one crop, one county, one season
+Where: Trans Nzoia (Kitale). It has above-average rain forecast through the harvest [12], a drought-reduced and therefore more valuable crop [8][9], and a certified warehouse-receipt store at NCPB Kitale [30], which gives the advice a real destination.
+Who: smallholders who keep maize at home in woven sacks, use a basic phone, and read Kiswahili or English.
+Planned for 10–11 October (no results have been recorded as of 12 October, so none are reported here): phone interviews with 3–5 Trans Nzoia farmers; a side-by-side salt test and meter reading on the same maize (the descriptions we found, all secondary, ask for non-iodised salt, while Kenyan table salt is normally iodised, so we would test what farmers actually have); hermetic-bag prices from Kitale stockists.
+Proposed after the hackathon, with funding and partners not yet agreed: 200 farmers through one or two co-operatives and the county extension office, with meter spot checks to calibrate the drift rate and the two salt-test values. We found no randomised trial of SMS advice on storage behaviour, so the pilot is designed for a staggered roll-out that can measure it.
+Success metrics
+    • Share of registered farmers who complete at least one test
+    • Alert-to-action rate: replies such as "1" (covered), DRYING or SEALED, plus spot checks
+    • Share of batches meter-tested at 13.5% or below before sealing or delivery
+    • False-alarm rate (warning sent, meter shows dry grain) and opt-out rate
+    • Self-reported storage loss after 3 months (a weak measure), compared with non-users in the same wards
+7. Illustrative impact: an upper-bound estimate
+Evidence used. In a randomised trial in Kenya, maize in ordinary polypropylene bags lost 12.4% of its weight in 4 months and maize in hermetic bags 3.9%: 8.5 points saved per bag switched [31] (abstract only; the county and the 12.4% and 3.9% figures are not verified at the primary source; conditions differ from a farmer's store). Six SMS-advice trials in Kenya and Rwanda raised adoption of recommended practices by about 2 percentage points on average [32]; we apply it to switching to hermetic bags, which those trials did not measure, as the base case, and show higher uptake as scenarios, not promises. The figures are gross: the cost of the bags is not subtracted, so they are an illustrative upper bound. Grain is valued at the January 2026 NCPB price of KES 4,000 per bag [11], which a short year may raise (not verified).
+Per 10,000 bags stored in woven sacks
+2% switch (trial average)
+10% switch
+25% switch
+Bags saved
+17
+85
+about 213
+Tonnes saved
+1.5 t
+7.7 t
+19.1 t
+Value saved
+KES 68,000
+KES 340,000
+KES 850,000
+Water embodied in that maize (global average footprint) [33]
+about 1,900 m³
+about 9,300 m³
+about 23,400 m³
+
+The estimate scales directly: per million bags in sacks, KES 6.8 million to 85 million. A September 2025 report put Trans Nzoia's expected crop at 7.5 million bags; it pre-dates the 2026 drought and is not the current outlook [34]. The one source we found prices a bag at about KES 250–300 [35] and appears to describe ordinary bags; hermetic bag prices are unconfirmed and a current retailer quote is needed. At the trial's loss rate, a switch saves about KES 340 per bag-season (our arithmetic: 8.5 points of 4,000 per bag; the trial's authors value the saving at about KES 307 per bag per season, seen only in secondary summaries). The trial's authors report benefit-cost ratios of 1.6 for one season and 4.8 over three seasons [31]; these are their figures, on their own prices, as seen in secondary summaries of the abstract and not checked in the full paper, and they are not ours. We count only the switch to hermetic bags. Not counted: the drying and testing pathway, lower aflatoxin exposure, NCPB drying charges avoided, and access to warehouse-receipt credit.
+8. Who could pay (hypotheses; no one has agreed)
+    • In the pilot design, farmers are not charged for alerts (replies are an ordinary SMS unless a free keyword is arranged). The funding model is not decided.
+    • County governments (agriculture is devolved): extension advice delivered at the moment it matters, at SMS cost.
+    • Warehouse-receipt operators, aggregators and millers: a fee per referred tonne that passes intake. Dry grain means fewer rejections and lower drying costs.
+    • Hermetic-bag makers and distributors: a clearly labelled stockist listing. The service is designed so that payment does not change the advice a farmer receives.
+    • Existing advisory services (MoA-INFO, KAOP): could license the engine as their post-harvest module instead of competing for farmers' attention.
+9. Risks and how we handle them
+Risk
+How we handle it
+The tables come from US corn research (the Arkansas publications do not say yellow) and are not validated for Kenyan white maize, whose moisture curve is known to differ [36]
+The moisture table errs wet: in our comparison with one set of measured maize points [19] it reads about 0.6–0.7 points wetter. Only a meter or hygrometer reading can clear grain, and the pilot calibrates against meter readings. False alarms are a tracked metric.
+Salt test done wrongly, or with iodised salt
+The first message asks for a meter reading and offers the salt test only as a draft, with no steps; a short video later, and a planned side-by-side check against a meter (no result yet). The exact salt-test procedure is unverified. Meter and hygrometer readings override the salt test.
+Alert fatigue
+Messages only on change; spacing and caps on every repeat; STOP and START at any time.
+Weather data gaps
+Forecast cached per ward; missing days filled from the nearest day and flagged; missing rain data is recorded as missing (never as 0 mm) and flagged on the dashboard.
+Insects, a major storage pest [2], are not modelled
+A dated reminder based on Kenyan trial data [22], and every dry-grain message points to hermetic bags.
+Farmer cannot afford hermetic bags
+Warehouse deposit and sell-now routes; credit partners later.
+Data protection
+Consent at registration, minimum data (no ID numbers), Data Protection Act 2019. The ODPC registration exemption applies only if turnover is below KES 5 million AND there are fewer than 10 staff, and businesses wholly or mainly in direct marketing must register regardless. Whether farm advice with stockist listings counts as marketing is not settled, so we do not assume an exemption. Retention rules, cross-border processing (Oracle, Africa's Talking, Telegram) and a data protection impact assessment are still to be written, and the wording needs review by someone qualified [37].
+10. Proposed plan for bootcamp week (subject to the organisers)
+When
+Deliverable
+Sat 10 – Sun 11 Oct
+Farmer interviews; salt-vs-meter check; stockist prices (planned; no results recorded as of 12 October); Oracle Cloud account created (card verification) and the database kept active.
+Mon 12 (onboarding; APEX session)
+Data model, lookup tables, farmer and batch tables in APEX.
+Tue 13 (Oracle Cloud session)
+REST handlers on Oracle; Africa's Talking sandbox connected. (The Telegram test bot already exists, outside Oracle.)
+Wed 14
+Compile the PL/SQL engine (written, never compiled) and check it against the reference results; 17:00 automation.
+Thu 15
+Officer dashboard; Kiswahili read-through by native speakers; timed rehearsal.
+Fri 16 (pitch)
+Demo (the Telegram test bot @HarvestlyBot with /demo if Telegram and the network work, otherwise the engine output replayed from the website; simulated weather either way): register → SALT YES → "too wet; storage time left" → a wet El Niño week appears in the forecast → "about 34 days (estimate)" → DRYING → rain alert → SALT NO → METER 13.1 → seal or deposit, with the stockist and NCPB Kitale.
+References
+[1] WRI Africa, FOLU Kenya and JKUAT, Food Loss and Waste in Maize, Potato, Fresh Fruits and Fish Value Chains in Kenya, 2025. Link
+[2] De Groote, Muteti and Bruce (2023), On-farm storage loss estimates of maize in Kenya using community survey methods, CIMMYT repository record 10883/22998. Link
+[3] East African Standard EAS 2, Maize grain - Specification (draft revision DEAS 2:2024: moisture max. 13.5%; total aflatoxins 10 µg/kg). Link
+[4] Ng'ang'a et al. (2016a), hermetic and woven bags, mould and aflatoxin in Kenyan farm stores, Journal of Stored Products Research 69: 119–128. Not re-opened for this note. Link
+[5] Kitale climate normals 1961–1990 (NOAA temperature, DWD humidity), as compiled on Wikipedia "Kitale". Link
+[6] University of Arkansas Extension FSA1074, Grain Drying Tools: Equilibrium Moisture Content Tables, Table A (corn). Link
+[7] University of Arkansas Extension FSA1058, Safe Grain Storage Period, Table 1 (corn, about 0.5% dry-matter loss). Link
+[8] USDA Foreign Agricultural Service, GAIN report KE2026-0017, "Dry Weather Decimates Kenyan Harvest", 28 Aug 2026 (copy hosted by APEDA). Link
+[9] Citizen Digital, Trans Nzoia farmers count losses after prolonged drought, 4 Jul 2026. Link
+[10] Daily Nation, "Kenya to import 25 million bags of maize", 20 Aug 2026. Link
+[11] The Star, "Cereals board raises maize price to Sh4,000", 15 Jan 2026. Link
+[12] Kenya Meteorological Department, October-November-December 2026 Seasonal Forecast, 31 Aug 2026. Link
+[13] CDC, "Outbreak of aflatoxin poisoning - eastern and central provinces, Kenya, 2004", MMWR 53(34). Link
+[14] Precision Development, MoA-INFO. Link
+[15] AICCRA, "Kenyan agriculture data platform gets upgrade" (KAOP), 15 Jun 2023. Link
+[16] TechCabal, "Faith Koki built Silo Africa to take on a $4 billion post-harvest challenge", 3 Oct 2025. Link
+[17] agriBORA and Alliance of Bioversity-CIAT, Lessons from agriGHALA (policy brief), May 2026. Link
+[18] Johnson (1992), Determining safe storage moisture content of maize: salt granule technique, CSIR Food Research Institute, Ghana. Link
+[19] Tubbs, Woloshuk and Ileleji (2017), A simple low-cost method of determining whether it is safe to store maize, AIMS Agriculture and Food 2(1): 43–55. Link
+[20] UC Davis Horticulture Innovation Lab, DryCard. Link
+[21] Afzal et al. (2017), maize moisture in woven and PICS bags (Pakistan), Journal of Stored Products Research 72: 49–53. Link
+[22] Ng'ang'a et al. (2016b), 35-week on-farm storage trial, Makueni County, Food Security 8: 621–633. Link: https://doi.org/10.1007/s12571-016-0567-9
+[23] Communications Authority of Kenya, Sector Statistics Report Q2 FY2025/26 (Oct-Dec 2025). Link
+[24] Oracle, Always Free Autonomous AI Database (limits). Link
+[25] Oracle APEX, free evaluation service terms (oracleapex.com). Link
+[26] Telegram, Bot API (webhooks) and Bots overview (a bot cannot start a conversation). Link
+[27] Africa's Talking Help Centre, USSD sessions and menu limits. Link
+[28] Oracle, Use Web Services with Oracle APEX on Autonomous Database (default of 1,000 requests per 24 hours). Link
+[29] Open-Meteo, Terms of Use (free API for non-commercial use; credit required). Link. Licence: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+[30] Kenya News Agency, "Govt launches warehouse receipt system" (NCPB Kitale among certified stores). Link
+[31] Ndegwa, De Groote, Gitonga and Bruce, Effectiveness and economics of hermetic bags for maize storage: results of a randomized controlled trial in Kenya, Crop Protection 90: 17–26 (2016); a conference version is AgEcon Search 212524. Abstract level only (the publisher pages returned 403): the county, the 12.4% and 3.9% loss figures and the bag price are not verified, and the benefit-cost ratios are as reported by secondary summaries. Link
+[32] Fabregas et al. (2025), Digital Information Provision and Behavior Change: Lessons from Six Experiments in East Africa, AEJ: Applied Economics 17(1): 527–66. Link
+[33] Mekonnen and Hoekstra (2011), The green, blue and grey water footprint of crops, HESS 15: 1577–1600. Link
+[34] People Daily, "Rains, high drying costs put 7.5m bags of Trans Nzoia maize at risk", 27 Sep 2025. Link
+[35] Kenya News Agency, "Innovative hermetic bags revolutionize grain storage", 21 Apr 2024. Link
+[36] Bartosik and Maier (2005), ASAE Paper 056081 (moisture curves of white and waxy corn differ from the ASAE corn parameters). Link
+[37] Data Protection (Registration of Data Controllers and Data Processors) Regulations, Legal Notice 265 of 2021. The Notice text was unreachable; only the ODPC FAQ was read at the source. Link
+Sources checked 9 to 12 October 2026; items not verified at a primary source are marked as such in this note and kept in the team's verification log, available on request. Prices, forecasts and production estimates change; a pilot would refresh them.
